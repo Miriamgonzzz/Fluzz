@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fluzz_transformacion_pulpo_sin_fondo_0015_Capa-1_0: -8150493723680816334
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
