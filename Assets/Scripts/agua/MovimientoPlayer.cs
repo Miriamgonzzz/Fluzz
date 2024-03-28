@@ -7,7 +7,9 @@ public class MovimientoPlayer : MonoBehaviour
 
     public float velocidad = 2;
     public Rigidbody2D rigidbody;
-
+    public GameObject BolaTinta;
+    private float ultimoDisparo;
+    private int Health = 5;
     void Start()
     {
         
@@ -52,5 +54,33 @@ public class MovimientoPlayer : MonoBehaviour
         transform.position += velocidadHorizontal;
         transform.position += velocidadVertical;
 
+        if (Input.GetKey(KeyCode.Space) && Time.time > ultimoDisparo + 0.50f)
+        {
+
+          
+            ultimoDisparo = Time.time;
+            this.disparo();
+        }
+
+
+    }
+
+
+    private void disparo() {
+
+        Vector3 direction;
+        if (transform.localScale.x == 1.0f) direction = Vector3.right;
+        else direction = Vector3.left;
+
+        GameObject bala = Instantiate(BolaTinta, transform.position + direction * 0.1f, Quaternion.identity);
+        bala.GetComponent<BolaTinta>().dameDireccion(direction);
+        this.eliminarBala();
+
+
+    }
+
+
+    public void eliminarBala() {
+        Destroy(gameObject, 0.5f);
     }
 }
