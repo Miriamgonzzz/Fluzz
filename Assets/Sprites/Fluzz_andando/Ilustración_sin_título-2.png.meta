@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Ilustracio\u0301n_sin_ti\u0301tulo-2_0": -8588611900057989501
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
