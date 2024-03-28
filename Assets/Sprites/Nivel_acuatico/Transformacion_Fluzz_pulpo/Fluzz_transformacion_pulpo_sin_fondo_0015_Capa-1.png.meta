@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e138c2957330e2344b29fe442d12fc22
+guid: b575d1ecd9ab85843b0eea4bba200b82
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8819594251758431467
-    second: "Ilustracio\u0301n_sin_ti\u0301tulo-8_0"
+      213: -8150493723680816334
+    second: Fluzz_transformacion_pulpo_sin_fondo_0015_Capa-1_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Ilustracio\u0301n_sin_ti\u0301tulo-8_0"
+      name: Fluzz_transformacion_pulpo_sin_fondo_0015_Capa-1_0
       rect:
         serializedVersion: 2
-        x: 650
-        y: 291
-        width: 613
-        height: 377
+        x: 0
+        y: 0
+        width: 247
+        height: 283
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5139cd891c18a9580800000000000000
-      internalID: -8819594251758431467
+      spriteID: 23344f73421a3ee80800000000000000
+      internalID: -8150493723680816334
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Ilustracio\u0301n_sin_ti\u0301tulo-8_0": -8819594251758431467
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
