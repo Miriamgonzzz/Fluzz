@@ -1,0 +1,424 @@
+fileFormatVersion: 2
+guid: 5d1db851963cacf499e3f0b6d564090a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5666459903996907996
+    second: MuerteMuerte 0013_0
+  - first:
+      213: -2095318681564658735
+    second: MuerteMuerte 0013_1
+  - first:
+      213: 6378695896028334301
+    second: MuerteMuerte 0013_2
+  - first:
+      213: 3883551930312088349
+    second: MuerteMuerte 0013_3
+  - first:
+      213: -5570832939702294234
+    second: MuerteMuerte 0013_4
+  - first:
+      213: 2906066146038296312
+    second: MuerteMuerte 0013_5
+  - first:
+      213: -6904728515856809011
+    second: MuerteMuerte 0013_6
+  - first:
+      213: 3871288019288259977
+    second: MuerteMuerte 0013_7
+  - first:
+      213: -5923515159002638933
+    second: MuerteMuerte 0013_8
+  - first:
+      213: 5988917710641373516
+    second: MuerteMuerte 0013_9
+  - first:
+      213: 8331955526435512207
+    second: MuerteMuerte 0013_10
+  - first:
+      213: -5298751996087600486
+    second: MuerteMuerte 0013_11
+  - first:
+      213: 1555770105804337621
+    second: MuerteMuerte 0013_12
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_0
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 914
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1dabfa24f43ae40800000000000000
+      internalID: 5666459903996907996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_1
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 760
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d34916b2ceebe2e0800000000000000
+      internalID: -2095318681564658735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_2
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 650
+        width: 94
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8c2052f1ea58850800000000000000
+      internalID: 6378695896028334301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_3
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 525
+        width: 103
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bd80997e525e530800000000000000
+      internalID: 3883551930312088349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_4
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 454
+        width: 219
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629eff5f4fc60b2b0800000000000000
+      internalID: -5570832939702294234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_5
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 539
+        width: 81
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fea66843cb645820800000000000000
+      internalID: 2906066146038296312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 461
+        width: 104
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc348d56ff97d20a0800000000000000
+      internalID: -6904728515856809011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_7
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 433
+        width: 171
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98df6ec41f399b530800000000000000
+      internalID: 3871288019288259977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_8
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 255
+        width: 218
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba59106d8527bcda0800000000000000
+      internalID: -5923515159002638933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_9
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 235
+        width: 248
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4123db5de8ec1350800000000000000
+      internalID: 5988917710641373516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 167
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f9a8d186d01a370800000000000000
+      internalID: 8331955526435512207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_11
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 90
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a7e40322d0776b0800000000000000
+      internalID: -5298751996087600486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuerteMuerte 0013_12
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 94
+        width: 78
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1b3ac1ba4379510800000000000000
+      internalID: 1555770105804337621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
