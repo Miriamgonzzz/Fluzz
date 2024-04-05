@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Arbusto 02 2024-03-30 20_15_47_0: 4580659555396859559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
