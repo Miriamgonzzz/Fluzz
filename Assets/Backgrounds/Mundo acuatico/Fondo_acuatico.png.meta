@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fondo_acuatico_0: -6767023384355841463
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

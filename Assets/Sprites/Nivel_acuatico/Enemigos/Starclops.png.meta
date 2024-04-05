@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Starclops_0: 4426412206935700162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -200,7 +200,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Draken_0: -8089661555377259549
+      Draken_1: 7538088150645190394
+      Draken_2: 6025801439120965603
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

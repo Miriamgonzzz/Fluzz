@@ -176,7 +176,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\xC1rbol 04 2024-03-30 20_15_50_0": 5531648049574039042
+      "\xC1rbol 04 2024-03-30 20_15_50_1": -954257048446163716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

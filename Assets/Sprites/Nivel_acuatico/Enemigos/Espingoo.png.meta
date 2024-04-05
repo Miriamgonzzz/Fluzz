@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Espingoo_0: -731363776340001891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
