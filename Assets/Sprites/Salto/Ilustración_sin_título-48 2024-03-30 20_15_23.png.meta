@@ -248,7 +248,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Ilustraci\xF3n_sin_t\xEDtulo-48 2024-03-30 20_15_23_0": -1974624764621174979
+      "Ilustraci\xF3n_sin_t\xEDtulo-48 2024-03-30 20_15_23_1": -6832614116188977590
+      "Ilustraci\xF3n_sin_t\xEDtulo-48 2024-03-30 20_15_23_2": 7259702818596255686
+      "Ilustraci\xF3n_sin_t\xEDtulo-48 2024-03-30 20_15_23_3": 1685237243111160637
+      "Ilustraci\xF3n_sin_t\xEDtulo-48 2024-03-30 20_15_23_4": -6077836751542013393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
