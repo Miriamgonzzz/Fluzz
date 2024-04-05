@@ -15,7 +15,6 @@ public class MovimientoPlayer : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        animator.SetInteger("Horizontal", 0);
 
     }
 
@@ -36,7 +35,8 @@ public class MovimientoPlayer : MonoBehaviour
                 velocidadHorizontal = new Vector3(velocidad, 0, 0) * Time.deltaTime;
                 transform.localScale = new Vector3(0.4f, 0.4f, 1);
 
-                animator.SetInteger("Horizontal", 2);
+
+            animator.SetInteger("Horizontal", 2);
 
             }
 
@@ -73,8 +73,6 @@ public class MovimientoPlayer : MonoBehaviour
 
             if (Input.GetKey(KeyCode.Space) && Time.time > ultimoDisparo + 0.50f)
             {
-
-
                 ultimoDisparo = Time.time;
                 this.disparo();
             }
@@ -83,19 +81,26 @@ public class MovimientoPlayer : MonoBehaviour
 
     private void disparo() {
 
+
         Vector3 direction;
-        if (transform.localScale.x == 1.0f) direction = Vector3.right;
-        else direction = Vector3.left;
+        direction = Vector3.right;
 
+        /*
+          if (transform.localScale.x == 0.4f)
+          {
+              direction = Vector3.right;
+          }
+          else
+          {
+              direction = Vector3.left;
+          }
+       */
         GameObject bala = Instantiate(BolaTinta, transform.position + direction * 0.1f, Quaternion.identity);
-        bala.GetComponent<BolaTinta>().dameDireccion(direction);
-        this.eliminarBala();
+        //bala.GetComponent<BolaTinta>().dameDireccion(direction);
+
 
 
     }
 
-
-    public void eliminarBala() {
-        Destroy(gameObject, 0.5f);
-    }
+     
 }
