@@ -130,6 +130,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -416,7 +440,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MuerteMuerte 0014_0: 7839415486398315114
+      MuerteMuerte 0014_1: -5434651676902888525
+      MuerteMuerte 0014_10: 2386676030857560579
+      MuerteMuerte 0014_11: 3542159177170771965
+      MuerteMuerte 0014_12: 1090456838166777150
+      MuerteMuerte 0014_2: 4818167301180969886
+      MuerteMuerte 0014_3: 5016559330861804067
+      MuerteMuerte 0014_4: 374062473657463063
+      MuerteMuerte 0014_5: 7523193469185309539
+      MuerteMuerte 0014_6: 3808181779440974571
+      MuerteMuerte 0014_7: -5495853877084091462
+      MuerteMuerte 0014_8: 2277685949591001601
+      MuerteMuerte 0014_9: -3514417364145730841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
