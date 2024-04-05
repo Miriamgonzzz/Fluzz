@@ -6,7 +6,7 @@ public class BolaTinta : MonoBehaviour
 {
     public float velocidad;
     private Rigidbody2D rigidbody2D;
-    private Vector2 direccion;
+    public Vector3 direccion;
 
     void Start()
     {
@@ -19,15 +19,19 @@ public class BolaTinta : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        
-       rigidbody2D.velocity = Vector2.right * velocidad;
 
-        
+       
+
+            rigidbody2D.velocity = Vector2.right * velocidad;
+         
+
+
     }
 
     public void dameDireccion(Vector2 direccion) {
 
-        direccion = direccion;
+        this.direccion = direccion;
+       
            
     }
 }
