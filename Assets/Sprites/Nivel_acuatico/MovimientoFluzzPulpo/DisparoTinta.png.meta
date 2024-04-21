@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 49e0ec8a62c5859488b3539ad19cd7ab
+guid: 7a2be6496b0f6544cbb8195ef2528700
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5161527537556084010
-    second: "Ilustraci\xF3n_sin_t\xEDtulo-11 2024-04-13 13_32_50_0"
+      213: -2942718143384826599
+    second: DisparoTinta_0
+  - first:
+      213: 5852175211818164762
+    second: DisparoTinta_1
+  - first:
+      213: -5016217585866041107
+    second: DisparoTinta_2
+  - first:
+      213: 2881656652534772139
+    second: DisparoTinta_3
+  - first:
+      213: -8314492372189513355
+    second: DisparoTinta_4
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Ilustraci\xF3n_sin_t\xEDtulo-11 2024-04-13 13_32_50_0"
+      name: DisparoTinta_0
       rect:
         serializedVersion: 2
-        x: 701
-        y: 232
-        width: 520
-        height: 375
+        x: 237
+        y: 400
+        width: 373
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +124,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6daa2913d029e58b0800000000000000
-      internalID: -5161527537556084010
+      spriteID: 91d4375907d5927d0800000000000000
+      internalID: -2942718143384826599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DisparoTinta_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 0
+        width: 867
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12a4c7595a173150800000000000000
+      internalID: 5852175211818164762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DisparoTinta_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 487
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de81366cea0d26ab0800000000000000
+      internalID: -5016217585866041107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DisparoTinta_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 100
+        width: 318
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1f9f23573bdf720800000000000000
+      internalID: 2881656652534772139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DisparoTinta_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 43
+        width: 233
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579f2f35d3dfc9c80800000000000000
+      internalID: -8314492372189513355
       vertices: []
       indices: 
       edges: []
@@ -128,8 +224,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Ilustraci\xF3n_sin_t\xEDtulo-11 2024-04-13 13_32_50_0": -5161527537556084010
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
