@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 49e0ec8a62c5859488b3539ad19cd7ab
+guid: 159cc43d05ad2354c832e813e8c6f2cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5161527537556084010
-    second: "Ilustraci\xF3n_sin_t\xEDtulo-11 2024-04-13 13_32_50_0"
+      213: 8143254505138113840
+    second: Puerta mundo Grecia 2024-04-21 10_46_44_0
+  - first:
+      213: -5518342442808055419
+    second: Puerta mundo Grecia 2024-04-21 10_46_44_1
+  - first:
+      213: 2635114506650178998
+    second: Puerta mundo Grecia 2024-04-21 10_46_44_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Ilustraci\xF3n_sin_t\xEDtulo-11 2024-04-13 13_32_50_0"
+      name: Puerta mundo Grecia 2024-04-21 10_46_44_0
       rect:
         serializedVersion: 2
-        x: 701
-        y: 232
-        width: 520
-        height: 375
+        x: 764
+        y: 209
+        width: 428
+        height: 679
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +118,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6daa2913d029e58b0800000000000000
-      internalID: -5161527537556084010
+      spriteID: 03d4b5ed3d6a20170800000000000000
+      internalID: 8143254505138113840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta mundo Grecia 2024-04-21 10_46_44_1
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 140
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589e67329c8ea63b0800000000000000
+      internalID: -5518342442808055419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta mundo Grecia 2024-04-21 10_46_44_2
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 188
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5dc5faeaec19420800000000000000
+      internalID: 2635114506650178998
       vertices: []
       indices: 
       edges: []
@@ -128,8 +176,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Ilustraci\xF3n_sin_t\xEDtulo-11 2024-04-13 13_32_50_0": -5161527537556084010
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

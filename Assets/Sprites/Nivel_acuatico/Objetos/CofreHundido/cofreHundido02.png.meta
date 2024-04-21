@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 49e0ec8a62c5859488b3539ad19cd7ab
+guid: d3deb3bc2189cce4aa58cee365e233d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5161527537556084010
-    second: "Ilustraci\xF3n_sin_t\xEDtulo-11 2024-04-13 13_32_50_0"
+      213: -1191955423098381499
+    second: cofreHundido02_0
+  - first:
+      213: -430403841665629472
+    second: cofreHundido02_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +101,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Ilustraci\xF3n_sin_t\xEDtulo-11 2024-04-13 13_32_50_0"
+      name: cofreHundido02_0
       rect:
         serializedVersion: 2
-        x: 701
-        y: 232
-        width: 520
-        height: 375
+        x: 0
+        y: 0
+        width: 1831
+        height: 1683
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +115,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6daa2913d029e58b0800000000000000
-      internalID: -5161527537556084010
+      spriteID: 54bde12abd2557fe0800000000000000
+      internalID: -1191955423098381499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cofreHundido02_1
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1532
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e28e838cf5e60af0800000000000000
+      internalID: -430403841665629472
       vertices: []
       indices: 
       edges: []
@@ -128,8 +152,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Ilustraci\xF3n_sin_t\xEDtulo-11 2024-04-13 13_32_50_0": -5161527537556084010
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

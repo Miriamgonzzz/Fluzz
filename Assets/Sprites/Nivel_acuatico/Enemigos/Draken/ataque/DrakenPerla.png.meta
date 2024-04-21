@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DrakenPerla_0: 8271837882421194634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
