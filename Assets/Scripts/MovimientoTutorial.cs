@@ -10,9 +10,12 @@ public class MovimientoTutorial : MonoBehaviour
     private float movimientoHorizontal = 0f;
     [SerializeField] private float velocidadMovimiento;
     [SerializeField] private float suavizador;
+    [SerializeField] private float fuerzaSalto; // Variable para ajustar la fuerza del salto desde el Inspector
+    [SerializeField] private float velocidadYDuranteSalto;
 
     private Vector3 velocidad = Vector3.zero;
     private bool mirada = true;
+    private bool enElAire = false;
 
     // Start is called before the first frame update
     void Start()
@@ -27,8 +30,14 @@ public class MovimientoTutorial : MonoBehaviour
     {
         animator.SetBool("Caminar", movimientoHorizontal != 0f);
 
-        movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            animator.SetBool("Saltar", true);
+            rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto); // Detener cualquier velocidad vertical existente
+            enElAire = true;
+        }
 
+        movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
     }
 
     private void FixedUpdate()
@@ -54,4 +63,19 @@ public class MovimientoTutorial : MonoBehaviour
         escala.x *= -1;
         transform.localScale = escala;
     }
+
+    // Función para restablecer la animación de salto
+    public void ResetSaltoAnimation()
+    {
+        animator.SetBool("Saltar", false);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Suelo"))
+        {
+            enElAire = false; // El personaje ya no está en el aire
+        }
+    }
+ 
 }
