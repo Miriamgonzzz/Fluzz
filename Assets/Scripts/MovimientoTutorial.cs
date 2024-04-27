@@ -37,6 +37,11 @@ public class MovimientoTutorial : MonoBehaviour
             enElAire = true;
         }
 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            animator.SetBool("Ataque", true);
+        }
+
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
     }
 
@@ -68,6 +73,10 @@ public class MovimientoTutorial : MonoBehaviour
     public void ResetSaltoAnimation()
     {
         animator.SetBool("Saltar", false);
+    }
+    public void ResetAtaqueAnimation()
+    {
+        animator.SetBool("Ataque", false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
