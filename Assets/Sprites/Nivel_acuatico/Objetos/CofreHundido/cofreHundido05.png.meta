@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cofreHundido05_0: -7206502881983774504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

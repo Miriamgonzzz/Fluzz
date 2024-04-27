@@ -5,6 +5,7 @@ using UnityEngine;
 public class MovimientoTutorial : MonoBehaviour
 {
     private Rigidbody2D rb;
+    Animator animator;
 
     private float movimientoHorizontal = 0f;
     [SerializeField] private float velocidadMovimiento;
@@ -17,12 +18,15 @@ public class MovimientoTutorial : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         
     }
 
     // Update is called once per frame
     void Update()
     {
+        animator.SetBool("Caminar", movimientoHorizontal != 0f);
+
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
 
     }
@@ -37,11 +41,7 @@ public class MovimientoTutorial : MonoBehaviour
         Vector3 velocidad = new Vector2(mover,rb.velocity.y);
         rb.velocity = Vector3.SmoothDamp(rb.velocity,velocidad, ref velocidad, suavizador);
 
-        if(mover > 0 && !mirada)
-        {
-            Girar();
-        }
-        else if (mover < 0 && mirada)
+        if((mover > 0 && !mirada) || (mover < 0 && mirada))
         {
             Girar();
         }
