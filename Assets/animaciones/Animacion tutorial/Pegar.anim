@@ -72,7 +72,7 @@ AnimationClip:
       value: {fileID: 3193997556599632033, guid: 558cf5e4f6338e64693c82515fc6c9bf, type: 3}
     - time: 1.2666667
       value: {fileID: 7347951240025534669, guid: 593c312c4636aa144b22fed9e792dc9e, type: 3}
-    - time: 1.3333334
+    - time: 1.3166667
       value: {fileID: -3234405278757470816, guid: 402d404c3f5c8ca44a4105c9966106d8, type: 3}
     attribute: m_Sprite
     path: 
@@ -128,7 +128,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.4
+    m_StopTime: 1.3666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -148,7 +148,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 1.4
+  - time: 1.3666667
     functionName: ResetAtaqueAnimation
     data: 
     objectReferenceParameter: {fileID: 0}
