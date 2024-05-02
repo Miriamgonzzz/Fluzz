@@ -8,7 +8,8 @@ public class MovimientoEnemy : MonoBehaviour
     public Transform leftBoundary; // Punto de referencia izquierdo
     public Transform rightBoundary; // Punto de referencia derecho
     public float speed = 2f; // Velocidad de movimiento del enemigo
-    //public float flipCooldown = 1f;
+    public Transform respawnPoint;
+    public float respawnTime = 3f;
     private bool movingRight = true; // Indica si el enemigo se está moviendo hacia la derecha
     Animator animator;
     private GameObject objetoConTagPegar;
@@ -20,23 +21,7 @@ public class MovimientoEnemy : MonoBehaviour
         
         FlipDirection();
 
-        objetoConTagPegar = GameObject.FindGameObjectWithTag("Pegar");
-        if (objetoConTagPegar != null)
-        {
-            colliderPegar = objetoConTagPegar.GetComponent<BoxCollider2D>();
-            if (colliderPegar != null)
-            {
-                Debug.Log("Se encontro");
-            }
-            else
-            {
-                Debug.LogWarning("No se encontró un BoxCollider en el objeto con el tag 'Pegar'");
-            }
-        }
-        else
-        {
-            Debug.LogWarning("No se encontró ningún objeto con el tag 'Pegar'");
-        }
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -75,12 +60,27 @@ public class MovimientoEnemy : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("AtaqueEnemigo") && other.gameObject.CompareTag("Pegar"))
+        if (other.CompareTag("Pegar"))
         {
-            Debug.Log("Choque");
             animator.SetBool("Muerte", true);
+            //StartCoroutine(RespawnEnemy());
             // Realizar la acción de muerte del enemigo aquí
-            //Destroy(gameObject); // Por ejemplo, puedes destruir el GameObject del enemigo
+            // Por ejemplo, puedes destruir el GameObject del enemigo
         }
     }
+
+    public void Desaparecer()
+    {
+        Destroy(gameObject);
+    }
+
+   /* IEnumerator RespawnEnemy()
+    {
+        // Esperar el tiempo de respawn
+        yield return new WaitForSeconds(respawnTime);
+
+        // Instanciar un nuevo enemigo en la posición de respawn
+        Instantiate(gameObject, respawnPoint.position, Quaternion.identity);
+       
+    }*/
 }
