@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3384ad1dd87f0404ea0199aa4170aaba
+guid: d0c50b1c5b14ba847bc2e7f5bb2782a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4257042787945987605
-    second: Gamba0000_0
+      213: -8598719051754288802
+    second: "Da\xF1oSeeker0013_0"
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -94,41 +94,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gamba0000_0
+      name: "Da\xF1oSeeker0013_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 237
-        height: 237
+        x: 29
+        y: 90
+        width: 177
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be147de9322fbe4c0800000000000000
-      internalID: -4257042787945987605
+      spriteID: e594dc494963ba880800000000000000
+      internalID: -8598719051754288802
       vertices: []
       indices: 
       edges: []
@@ -152,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Gamba0000_0: -4257042787945987605
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DisparoTinta_0: -2942718143384826599
+      DisparoTinta_1: 5852175211818164762
+      DisparoTinta_2: -5016217585866041107
+      DisparoTinta_3: 2881656652534772139
+      DisparoTinta_4: -8314492372189513355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
