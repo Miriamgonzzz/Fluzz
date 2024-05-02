@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Muerte5_0: -936410556397586452
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
