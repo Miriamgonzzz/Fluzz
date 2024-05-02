@@ -7,14 +7,15 @@ public class MovimientoPlayer : MonoBehaviour
 
     public float velocidad = 2;
     public Rigidbody2D rigidbody;
-    public GameObject BolaTinta;
+    public GameObject disparoTinta;
+    public Transform PuntoDeDisparo;
     private float ultimoDisparo;
     private int Health = 5;
     private bool quieto = false;
-    public Animator animator;
+   // public Animator animator;
     void Start()
     {
-        animator = GetComponent<Animator>();
+     //   animator = GetComponent<Animator>();
 
     }
 
@@ -25,7 +26,7 @@ public class MovimientoPlayer : MonoBehaviour
         Vector3 velocidadVertical = Vector3.zero;
 
         
-            animator.SetInteger("Horizontal", 1);
+          //  animator.SetInteger("Horizontal", 1);
 
             if (Input.GetKey(KeyCode.RightArrow))
             {
@@ -33,10 +34,10 @@ public class MovimientoPlayer : MonoBehaviour
 
                 Debug.Log("Derecha");
                 velocidadHorizontal = new Vector3(velocidad, 0, 0) * Time.deltaTime;
-                transform.localScale = new Vector3(0.4f, 0.4f, 1);
+               // transform.localScale = new Vector3(0.4f, 0.4f, 1);
 
 
-            animator.SetInteger("Horizontal", 2);
+            //animator.SetInteger("Horizontal", 2);
 
             }
 
@@ -45,8 +46,8 @@ public class MovimientoPlayer : MonoBehaviour
 
                 Debug.Log("Izquieda");
                 velocidadHorizontal = new Vector3(-velocidad, 0, 0) * Time.deltaTime;
-                transform.localScale = new Vector3(-0.4f, 0.4f, 1);
-                animator.SetInteger("Horizontal", 2);
+               // transform.localScale = new Vector3(-0.4f, 0.4f, 1);
+           //     animator.SetInteger("Horizontal", 2);
 
 
             }
@@ -56,7 +57,7 @@ public class MovimientoPlayer : MonoBehaviour
 
                 Debug.Log("Arriba");
                 velocidadVertical = new Vector3(0, velocidad, 0) * Time.deltaTime;
-                animator.SetInteger("Horizontal", 2);
+          //      animator.SetInteger("Horizontal", 2);
 
             }
 
@@ -65,7 +66,7 @@ public class MovimientoPlayer : MonoBehaviour
 
                 Debug.Log("Abajo");
                 velocidadVertical = new Vector3(0, -velocidad, 0) * Time.deltaTime;
-                animator.SetInteger("Horizontal", 2);
+            //    animator.SetInteger("Horizontal", 2);
 
             }
             transform.position += velocidadHorizontal;
@@ -82,22 +83,9 @@ public class MovimientoPlayer : MonoBehaviour
     private void disparo() {
 
 
-        Vector3 direction;
-        direction = Vector3.right;
-
-        /*
-          if (transform.localScale.x == 0.4f)
-          {
-              direction = Vector3.right;
-          }
-          else
-          {
-              direction = Vector3.left;
-          }
-       */
-        GameObject bala = Instantiate(BolaTinta, transform.position + direction * 0.1f, Quaternion.identity);
-        //bala.GetComponent<BolaTinta>().dameDireccion(direction);
-
+        var bala = Instantiate(disparoTinta, PuntoDeDisparo);
+        bala.transform.SetParent(bala.transform, false);
+        bala.GetComponent<Rigidbody2D>().velocity = bala.transform.right * velocidad;
 
 
     }
