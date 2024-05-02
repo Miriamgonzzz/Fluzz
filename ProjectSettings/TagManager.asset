@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bola
   - Suelo
+  - Enemigo
+  - Pegar
   layers:
   - Default
   - TransparentFX
