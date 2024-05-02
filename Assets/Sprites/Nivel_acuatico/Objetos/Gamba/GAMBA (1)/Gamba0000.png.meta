@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: e5c101737cd446447b60100a6c28cbaa
+=======
 guid: c4689864402f7f847bee67de21f7d22a
+>>>>>>> otero
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -94,6 +98,8 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
+=======
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -118,6 +124,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> otero
   spriteSheet:
     serializedVersion: 2
     sprites:
