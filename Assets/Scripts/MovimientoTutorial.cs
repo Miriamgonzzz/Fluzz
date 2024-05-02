@@ -18,12 +18,32 @@ public class MovimientoTutorial : MonoBehaviour
     private bool enElAire = false;
     //private bool iniciadoSalto = false; // Variable para controlar si el salto ha sido iniciado
     private bool animacionCaerSueloReproducida = false;
-   
+    private GameObject objetoConTagPegar;
+    private BoxCollider2D colliderPegar;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
+        objetoConTagPegar = GameObject.FindGameObjectWithTag("Pegar");
+        if (objetoConTagPegar != null)
+        {
+            colliderPegar = objetoConTagPegar.GetComponent<BoxCollider2D>();
+            if (colliderPegar != null)
+            {
+                colliderPegar.enabled = false;
+            }
+            else
+            {
+                Debug.LogWarning("No se encontró un BoxCollider en el objeto con el tag 'Pegar'");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró ningún objeto con el tag 'Pegar'");
+        }
+
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         
@@ -100,6 +120,16 @@ public class MovimientoTutorial : MonoBehaviour
         animacionCaerSueloReproducida = false;
        
     }
+    public void ActivarCollider()
+    {
+        colliderPegar.enabled = true;
+    }
+
+    // Método para desactivar el BoxCollider
+    public void DesactivarCollider()
+    {
+        colliderPegar.enabled = false;
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -111,6 +141,7 @@ public class MovimientoTutorial : MonoBehaviour
             animator.SetBool("Saltar", false);
             animator.SetBool("Toque", true);
         }
+
     }
 
 }
