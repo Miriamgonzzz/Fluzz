@@ -5,7 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bola
+<<<<<<< HEAD
   - Suelo
+=======
+  - Enemigo
+>>>>>>> otero
   layers:
   - Default
   - TransparentFX
