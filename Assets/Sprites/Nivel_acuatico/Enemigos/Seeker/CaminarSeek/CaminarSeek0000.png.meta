@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CaminarSeek0000_0: -6532877061627086476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -320,7 +320,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Burbuja 0006_0: -1424476773218464026
+      Burbuja 0006_1: -6706849703276853761
+      Burbuja 0006_2: -1891357111373884635
+      Burbuja 0006_3: -2001860231428966646
+      Burbuja 0006_4: 1770568843201204990
+      Burbuja 0006_5: 3485669055017547805
+      Burbuja 0006_6: 4431559653602291636
+      Burbuja 0006_7: 387344402334102890
+      Burbuja 0006_8: -2655873874256101956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

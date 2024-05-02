@@ -440,7 +440,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DisparoEstr0018_0: 8420600255903710451
+      DisparoEstr0018_1: 8027159576653077442
+      DisparoEstr0018_10: -4242348913154860048
+      DisparoEstr0018_11: -880901418044535422
+      DisparoEstr0018_12: 1783244520094136182
+      DisparoEstr0018_13: -9114463667225548503
+      DisparoEstr0018_2: 8371488085395110372
+      DisparoEstr0018_3: 3720673530212459611
+      DisparoEstr0018_4: 3938646322904650013
+      DisparoEstr0018_5: -2867127117019914836
+      DisparoEstr0018_6: -1727708984326983045
+      DisparoEstr0018_7: -3462283218613367336
+      DisparoEstr0018_8: -1609620613577066000
+      DisparoEstr0018_9: -2939804476639953588
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gamba0007_0: 2214379703843374150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

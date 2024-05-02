@@ -176,7 +176,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DisparoEstr0006_0: -5305469105637547186
+      DisparoEstr0006_1: 2600149395152361825
+      DisparoEstr0006_2: 2476706703761701357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
