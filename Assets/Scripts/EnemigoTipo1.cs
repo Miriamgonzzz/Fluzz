@@ -19,7 +19,7 @@ public class EnemigoTipo1 : MonoBehaviour
 
     public bool perseguir;
     public float distanciaFluzz;
-    public float distanciaFluzzAbsoluta;
+    private float distanciaFluzzAbsoluta;
 
     [SerializeField] List<Transform> wayPoints = null;
     float distanciaCambio = 0.2f;
@@ -37,7 +37,12 @@ public class EnemigoTipo1 : MonoBehaviour
     public void Update()
     {
         distanciaFluzz = objetivo.position.x - transform.position.x;
-        distanciaFluzzAbsoluta = Mathf.Abs(distanciaFluzz);
+        if(distanciaFluzz < 0){ 
+            distanciaFluzzAbsoluta = distanciaFluzz * -1;
+        }else{
+              distanciaFluzzAbsoluta = distanciaFluzz;
+        }
+
 
         if (perseguir) {
 
@@ -46,14 +51,14 @@ public class EnemigoTipo1 : MonoBehaviour
         
         }
 
-        if (distanciaFluzzAbsoluta >= 0)
+        if (distanciaFluzz >= 0)
         {
 
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(-1, 1, 1);
         }
         else {
           
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(1, 1, 1);
 
 
         }
@@ -80,7 +85,7 @@ public class EnemigoTipo1 : MonoBehaviour
 
         }
 
-
+        Debug.Log("distancia:" + distanciaFluzzAbsoluta);
     }
 
 
