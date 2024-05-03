@@ -43,7 +43,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
         Vector3 velocidadVertical = Vector3.zero;
         movimiento = Input.GetAxis("Horizontal");
 
- if (vida <= 0)
+ if (vida <= 1)
             {
               Destroy(gameObject);
               muerte();
@@ -136,7 +136,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
 
        
     if (collision.gameObject.CompareTag("Enemigo")){
-            vida -= 10;
+            vida -= 20;
             barraVida.CambiarVidaActual(vida);
 
            

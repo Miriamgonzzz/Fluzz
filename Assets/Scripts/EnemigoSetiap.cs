@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class EnemigoSetiap : MonoBehaviour
 {
 
@@ -82,6 +82,8 @@ public class EnemigoSetiap : MonoBehaviour
             if (vida <= 0) {
 
                 Destroy(gameObject);
+                victoria();
+
                     
              }
             StopAllCoroutines();
@@ -103,6 +105,7 @@ public class EnemigoSetiap : MonoBehaviour
         {
 
             Destroy(gameObject);
+            victoria();
 
         }
 
@@ -145,5 +148,10 @@ public class EnemigoSetiap : MonoBehaviour
 
            
         }
+    }
+
+     public void victoria()
+    {
+        SceneManager.LoadScene("SuperaMundoAcuatico"); // Carga la escena con el nombre especificado
     }
 }

@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class EnemigoTipo1 : MonoBehaviour
+public class pezGlobo : MonoBehaviour
 {
-    [SerializeField] public int vida = 10;
+   [SerializeField] public int vida = 10;
     public Color colorReposo;
     public Color colorDano;
     SpriteRenderer spriteRenderer;
@@ -15,6 +14,7 @@ public class EnemigoTipo1 : MonoBehaviour
     public float velocidad;
     private float velocidadX = 2;
     private float velocidadY = -1.2f;
+    public Animator animator;
 
 
     public bool perseguir;
@@ -30,6 +30,9 @@ public class EnemigoTipo1 : MonoBehaviour
     {
         
         spriteRenderer = GetComponent<SpriteRenderer>();    
+        animator = GetComponent<Animator>();
+         animator.SetInteger("modo",1);   
+
     }
 
 
@@ -46,30 +49,32 @@ public class EnemigoTipo1 : MonoBehaviour
         if (perseguir) {
 
             transform.position = Vector2.MoveTowards(transform.position, objetivo.position, velocidad * Time.deltaTime);
-               
+           
         
         }
 
         if (distanciaFluzz >= 0)
         {
 
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-0.3f, 0.3f, 1);
         }
         else {
           
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(0.3f, 0.3f, 1);
 
 
         }
 
-        if (distanciaFluzzAbsoluta < 5)
+        if (distanciaFluzzAbsoluta < 10)
         {
 
             perseguir = true;
+             animator.SetInteger("modo",2);   
         }
         else {
 
             perseguir = false;
+             animator.SetInteger("modo",1);   
         }
 
         if (!perseguir) {
@@ -114,9 +119,13 @@ public class EnemigoTipo1 : MonoBehaviour
       if (collision.gameObject.CompareTag("Player")){
 
            vida -= 10;
-             Destroy(gameObject);
     
-       
+        if (vida <= 0)
+        {
+
+            Destroy(gameObject);
+
+        }
          StopAllCoroutines();
         StartCoroutine(Dano());
 
