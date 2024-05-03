@@ -10,6 +10,7 @@ public class MovimientoEnemy : MonoBehaviour
     public float speed = 2f; // Velocidad de movimiento del enemigo
     public Transform respawnPoint;
     public float respawnTime = 3f;
+    public GameObject enemyPrefab;
     private bool movingRight = true; // Indica si el enemigo se está moviendo hacia la derecha
     Animator animator;
     private GameObject objetoConTagPegar;
@@ -62,8 +63,8 @@ public class MovimientoEnemy : MonoBehaviour
     {
         if (other.CompareTag("Pegar"))
         {
+            StartCoroutine(RespawnEnemy());
             animator.SetBool("Muerte", true);
-            //StartCoroutine(RespawnEnemy());
             // Realizar la acción de muerte del enemigo aquí
             // Por ejemplo, puedes destruir el GameObject del enemigo
         }
@@ -74,13 +75,13 @@ public class MovimientoEnemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-   /* IEnumerator RespawnEnemy()
+   IEnumerator RespawnEnemy()
     {
         // Esperar el tiempo de respawn
         yield return new WaitForSeconds(respawnTime);
 
         // Instanciar un nuevo enemigo en la posición de respawn
-        Instantiate(gameObject, respawnPoint.position, Quaternion.identity);
+        Instantiate(enemyPrefab, respawnPoint.position, Quaternion.identity);
        
-    }*/
+    }
 }

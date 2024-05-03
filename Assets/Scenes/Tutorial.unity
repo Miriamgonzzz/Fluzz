@@ -1718,7 +1718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 377329287}
   m_Layer: 0
-  m_Name: Spaun
+  m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3998,6 +3998,9 @@ MonoBehaviour:
   leftBoundary: {fileID: 338356264}
   rightBoundary: {fileID: 1788724471}
   speed: 2
+  respawnPoint: {fileID: 377329287}
+  respawnTime: 3
+  enemyPrefab: {fileID: 980421037}
 --- !u!1 &993210490
 GameObject:
   m_ObjectHideFlags: 0
