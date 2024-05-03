@@ -21,7 +21,6 @@ public class EnemigoTipo1 : MonoBehaviour
     public float distanciaFluzz;
     private float distanciaFluzzAbsoluta;
 
-    [SerializeField] List<Transform> wayPoints = null;
     float distanciaCambio = 0.2f;
     byte siguientePosicion = 0;
 
@@ -85,7 +84,6 @@ public class EnemigoTipo1 : MonoBehaviour
 
         }
 
-        Debug.Log("distancia:" + distanciaFluzzAbsoluta);
     }
 
 
@@ -111,16 +109,23 @@ public class EnemigoTipo1 : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        vida -= 10;
 
+
+      if (collision.gameObject.CompareTag("Player")){
+
+           vida -= 10;
+    
         if (vida <= 0)
         {
 
             Destroy(gameObject);
 
         }
-        StopAllCoroutines();
+         StopAllCoroutines();
         StartCoroutine(Dano());
+
+      }
+       
 
     }
 
@@ -133,9 +138,5 @@ public class EnemigoTipo1 : MonoBehaviour
         spriteRenderer.color = colorDano;
         yield return new WaitForSeconds(0.1f);
         spriteRenderer.color = colorReposo;
-
-
-
-
     }
 }

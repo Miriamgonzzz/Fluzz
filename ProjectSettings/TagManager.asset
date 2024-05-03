@@ -9,6 +9,7 @@ TagManager:
   - Enemigo
   - Pegar
   - AtaqueEnemigo
+  - Limite
   layers:
   - Default
   - TransparentFX

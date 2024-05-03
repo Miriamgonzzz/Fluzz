@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MecanicaFluzzAguaV2 : MonoBehaviour
 {
@@ -13,13 +14,15 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
     private bool orientacion;
     private float movimiento;
     public Animator animator;
-    private int Health = 5;
     private bool quieto = false;
-    public int vida;
+    public float vida;
     public int danio;
     public Color colorReposo;
     public Color colorDano;
     SpriteRenderer spriteRenderer;
+
+    public barraVida barraVida;
+
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +30,10 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        vida = 30;
+        vida=100;
+        barraVida.InicializarBarraVida(vida);
+
+       
     }
 
     // Update is called once per frame
@@ -37,15 +43,18 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
         Vector3 velocidadVertical = Vector3.zero;
         movimiento = Input.GetAxis("Horizontal");
 
-
-
+ if (vida <= 0)
+            {
+              Destroy(gameObject);
+              muerte();
+            }
         //  animator.SetInteger("Horizontal", 1);
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
 
 
-            Debug.Log("Derecha");
+            //Debug.Log("Derecha");
             velocidadHorizontal = new Vector3(velocidad, 0, 0) * Time.deltaTime;
             girar(movimiento);
         }
@@ -53,7 +62,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow))
         {
 
-            Debug.Log("Izquieda");
+            //Debug.Log("Izquieda");
             velocidadHorizontal = new Vector3(-velocidad, 0, 0) * Time.deltaTime;
             girar(movimiento);
 
@@ -64,7 +73,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
 
-            Debug.Log("Arriba");
+            //Debug.Log("Arriba");
             velocidadVertical = new Vector3(0, velocidad, 0) * Time.deltaTime;
      
 
@@ -73,7 +82,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow))
         {
 
-            Debug.Log("Abajo");
+            //Debug.Log("Abajo");
             velocidadVertical = new Vector3(0, -velocidad, 0) * Time.deltaTime;
           
 
@@ -126,17 +135,17 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
     {
 
        
+    if (collision.gameObject.CompareTag("Enemigo")){
+            vida -= 10;
+            barraVida.CambiarVidaActual(vida);
 
-            vida -= 1;
+           
+            
+            Debug.Log("Vida Fluzz: " + vida);
 
-            if (vida <= 0)
-            {
-
-                Destroy(gameObject);
-
-            }
             StopAllCoroutines();
             StartCoroutine(Dano());
+    }
         
     }
 
@@ -155,5 +164,10 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
 
     }
 
+
+    public void muerte()
+    {
+        SceneManager.LoadScene("FinalMundoAcuatico"); // Carga la escena con el nombre especificado
+    }
 
 }
