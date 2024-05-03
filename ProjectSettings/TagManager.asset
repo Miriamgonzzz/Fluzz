@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bola
+  - Suelo
+  - Enemigo
+  - Pegar
+  - AtaqueEnemigo
   layers:
   - Default
   - TransparentFX
