@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alga_pintada_0002_Capa3_0: -4659312938544407594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

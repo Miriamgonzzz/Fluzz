@@ -416,7 +416,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      barraVidaInterior_0: -4875228859681437796
+      barraVidaInterior_1: 6905689802713187275
+      barraVidaInterior_10: 4220801968342563544
+      barraVidaInterior_11: 4785195755649082452
+      barraVidaInterior_12: 6018486305767216016
+      barraVidaInterior_2: 7192908914486077207
+      barraVidaInterior_3: 422864095939741898
+      barraVidaInterior_4: -6967587555820292685
+      barraVidaInterior_5: 7079132608701435838
+      barraVidaInterior_6: -7093371847546591641
+      barraVidaInterior_7: 5692445890874890076
+      barraVidaInterior_8: -4263885724725462523
+      barraVidaInterior_9: -3636319045986237257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

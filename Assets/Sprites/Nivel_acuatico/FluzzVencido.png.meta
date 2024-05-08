@@ -88,7 +88,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -457,14 +457,29 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FluzzVencido_0: -356359418093980545
+      FluzzVencido_1: 1420325870423486588
+      FluzzVencido_10: 7411120943858220023
+      FluzzVencido_11: -6458838825991296524
+      FluzzVencido_12: -8721763303003760980
+      FluzzVencido_13: -5261059355657704587
+      FluzzVencido_14: 7126985595897312495
+      FluzzVencido_2: 2696016914140618989
+      FluzzVencido_3: -5483518798238620776
+      FluzzVencido_4: 4841788591095070958
+      FluzzVencido_5: -5596496025871858449
+      FluzzVencido_6: 2937070750616993702
+      FluzzVencido_7: -2803088068631684255
+      FluzzVencido_8: -6297157672246690052
+      FluzzVencido_9: 1382118594740409045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

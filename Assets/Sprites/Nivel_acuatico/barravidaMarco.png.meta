@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      barravidaMarco_0: 3422395073968177121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      globo_movimiento_0002_Capa2_0: 4101191156504176524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

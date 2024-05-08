@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Carteles_tutorial_fase_agua3_0: 6862547158494954789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      barraVidaInterior2_0: -6989340904784300963
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
