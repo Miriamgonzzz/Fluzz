@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 1a7b90d4424d65d41a315c11fe7b3d7a
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 501627da7a656834bb89a4d3fba9fd93
+  - enabled: 1
     path: Assets/Scenes/MundoSubmaarino.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
