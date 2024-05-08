@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cofre_pintado_0004_Capa3_0: 4507430440125333319
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

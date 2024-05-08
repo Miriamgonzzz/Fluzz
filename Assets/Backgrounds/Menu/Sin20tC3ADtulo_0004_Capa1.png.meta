@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sin20tC3ADtulo_0004_Capa1_0: 6045228287058982023
+      Sin20tC3ADtulo_0004_Capa1_1: 7868377687791770568
+      Sin20tC3ADtulo_0004_Capa1_2: -7557368559263239921
+      Sin20tC3ADtulo_0004_Capa1_3: 239447424591227034
+      Sin20tC3ADtulo_0004_Capa1_4: 7990948901029444035
+      Sin20tC3ADtulo_0004_Capa1_5: 439946592403851265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
