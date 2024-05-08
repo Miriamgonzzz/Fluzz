@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Globo_inflado_0004_Capa2_0: 3568585766929746817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

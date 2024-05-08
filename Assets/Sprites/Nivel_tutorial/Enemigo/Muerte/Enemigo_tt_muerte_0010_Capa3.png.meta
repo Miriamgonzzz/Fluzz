@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemigo_tt_muerte_0010_Capa3_0: 3194601572342767094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

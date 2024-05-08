@@ -320,7 +320,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Draken_pintado_0003_Capa2_0: 7212112928816840950
+      Draken_pintado_0003_Capa2_1: -6526635365031201484
+      Draken_pintado_0003_Capa2_2: -7233527881322019137
+      Draken_pintado_0003_Capa2_3: 8198926804563956883
+      Draken_pintado_0003_Capa2_4: -141261562662061593
+      Draken_pintado_0003_Capa2_5: -8925954291335403769
+      Draken_pintado_0003_Capa2_6: 2187156425378771279
+      Draken_pintado_0003_Capa2_7: 7919150648085782971
+      Draken_pintado_0003_Capa2_8: 7681844256400742305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

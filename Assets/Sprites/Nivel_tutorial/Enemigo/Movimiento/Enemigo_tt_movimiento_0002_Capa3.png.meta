@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemigo_tt_movimiento_0002_Capa3_0: 5029572936628681475
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

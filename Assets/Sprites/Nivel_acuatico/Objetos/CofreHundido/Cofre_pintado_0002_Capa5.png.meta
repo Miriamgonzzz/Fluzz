@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cofre_pintado_0002_Capa5_0: -8829593430166493760
+      Cofre_pintado_0002_Capa5_1: 7319861231163893262
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: e5e5e16236946244eb1d8e32cdfa0aac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4875228859681437796
+    second: barraVidaInterior_0
+  - first:
+      213: 6905689802713187275
+    second: barraVidaInterior_1
+  - first:
+      213: 7192908914486077207
+    second: barraVidaInterior_2
+  - first:
+      213: 422864095939741898
+    second: barraVidaInterior_3
+  - first:
+      213: -6967587555820292685
+    second: barraVidaInterior_4
+  - first:
+      213: 7079132608701435838
+    second: barraVidaInterior_5
+  - first:
+      213: -7093371847546591641
+    second: barraVidaInterior_6
+  - first:
+      213: 5692445890874890076
+    second: barraVidaInterior_7
+  - first:
+      213: -4263885724725462523
+    second: barraVidaInterior_8
+  - first:
+      213: -3636319045986237257
+    second: barraVidaInterior_9
+  - first:
+      213: 4220801968342563544
+    second: barraVidaInterior_10
+  - first:
+      213: 4785195755649082452
+    second: barraVidaInterior_11
+  - first:
+      213: 6018486305767216016
+    second: barraVidaInterior_12
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barraVidaInterior_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 5
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9784f3ae25b75cb0800000000000000
+      internalID: -4875228859681437796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3c1c3a940f5df50800000000000000
+      internalID: 6905689802713187275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717eead4c8852d360800000000000000
+      internalID: 7192908914486077207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac841c2a7a05ed500800000000000000
+      internalID: 422864095939741898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_4
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b536e9a8082e4f90800000000000000
+      internalID: -6967587555820292685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_5
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf888bc9912e3260800000000000000
+      internalID: 7079132608701435838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766aa3f03e74f8d90800000000000000
+      internalID: -7093371847546591641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_7
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 5
+        width: 80
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57dabcb061affe40800000000000000
+      internalID: 5692445890874890076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_8
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 5
+        width: 80
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a31ee3682a3d4c0800000000000000
+      internalID: -4263885724725462523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_9
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4c00ef713398dc0800000000000000
+      internalID: -3636319045986237257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_10
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8daf356070d439a30800000000000000
+      internalID: 4220801968342563544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_11
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454ab2ccf2e686240800000000000000
+      internalID: 4785195755649082452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barraVidaInterior_12
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 5
+        width: 81
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093dec46865f58350800000000000000
+      internalID: 6018486305767216016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      barraVidaInterior_0: -4875228859681437796
+      barraVidaInterior_1: 6905689802713187275
+      barraVidaInterior_10: 4220801968342563544
+      barraVidaInterior_11: 4785195755649082452
+      barraVidaInterior_12: 6018486305767216016
+      barraVidaInterior_2: 7192908914486077207
+      barraVidaInterior_3: 422864095939741898
+      barraVidaInterior_4: -6967587555820292685
+      barraVidaInterior_5: 7079132608701435838
+      barraVidaInterior_6: -7093371847546591641
+      barraVidaInterior_7: 5692445890874890076
+      barraVidaInterior_8: -4263885724725462523
+      barraVidaInterior_9: -3636319045986237257
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
