@@ -8,6 +8,8 @@ TagManager:
   - Suelo
   - Enemigo
   - Pegar
+  - AtaqueEnemigo
+  - Limite
   layers:
   - Default
   - TransparentFX

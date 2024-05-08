@@ -73,9 +73,9 @@ public class MovimientoEnemy : MonoBehaviour
         newScale.x *= -1;
         transform.localScale = newScale;
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Pegar"))
+        if (other.CompareTag("AtaqueEnemigo") && other.gameObject.CompareTag("Pegar"))
         {
             Debug.Log("Choque");
             animator.SetBool("Muerte", true);
