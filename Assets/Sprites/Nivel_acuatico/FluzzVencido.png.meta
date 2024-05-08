@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: c6a8b091682147441b77546783b3163e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -356359418093980545
+    second: FluzzVencido_0
+  - first:
+      213: 1420325870423486588
+    second: FluzzVencido_1
+  - first:
+      213: 2696016914140618989
+    second: FluzzVencido_2
+  - first:
+      213: -5483518798238620776
+    second: FluzzVencido_3
+  - first:
+      213: 4841788591095070958
+    second: FluzzVencido_4
+  - first:
+      213: -5596496025871858449
+    second: FluzzVencido_5
+  - first:
+      213: 2937070750616993702
+    second: FluzzVencido_6
+  - first:
+      213: -2803088068631684255
+    second: FluzzVencido_7
+  - first:
+      213: -6297157672246690052
+    second: FluzzVencido_8
+  - first:
+      213: 1382118594740409045
+    second: FluzzVencido_9
+  - first:
+      213: 7411120943858220023
+    second: FluzzVencido_10
+  - first:
+      213: -6458838825991296524
+    second: FluzzVencido_11
+  - first:
+      213: -8721763303003760980
+    second: FluzzVencido_12
+  - first:
+      213: -5261059355657704587
+    second: FluzzVencido_13
+  - first:
+      213: 7126985595897312495
+    second: FluzzVencido_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FluzzVencido_0
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 639
+        width: 167
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74b4205ff4fd0bf0800000000000000
+      internalID: -356359418093980545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 640
+        width: 178
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70b3eb9ad206b310800000000000000
+      internalID: 1420325870423486588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 486
+        width: 114
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0ebcb691d2a6520800000000000000
+      internalID: 2696016914140618989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 486
+        width: 200
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8936fc7b4b0a6e3b0800000000000000
+      internalID: -5483518798238620776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_4
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 485
+        width: 156
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0c2c9121d713340800000000000000
+      internalID: 4841788591095070958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_5
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 485
+        width: 244
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4c50714804552b0800000000000000
+      internalID: -5596496025871858449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_6
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 485
+        width: 599
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af37b2594292c820800000000000000
+      internalID: 2937070750616993702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_7
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 304
+        width: 63
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b9213c04e6919d0800000000000000
+      internalID: -2803088068631684255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_8
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 316
+        width: 170
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe3c1bf5700c98a0800000000000000
+      internalID: -6297157672246690052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 330
+        width: 276
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2d6f40a854e2310800000000000000
+      internalID: 1382118594740409045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_10
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 331
+        width: 50
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb702e8b3799d660800000000000000
+      internalID: 7411120943858220023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_11
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 330
+        width: 534
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9a943ee489d56a0800000000000000
+      internalID: -6458838825991296524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 330
+        width: 245
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca65c6d5c7216f680800000000000000
+      internalID: -8721763303003760980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_13
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 331
+        width: 197
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57be6cbe366fcf6b0800000000000000
+      internalID: -5261059355657704587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FluzzVencido_14
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 330
+        width: 63
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4f8ca93a328e260800000000000000
+      internalID: 7126985595897312495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FluzzVencido_0: -356359418093980545
+      FluzzVencido_1: 1420325870423486588
+      FluzzVencido_10: 7411120943858220023
+      FluzzVencido_11: -6458838825991296524
+      FluzzVencido_12: -8721763303003760980
+      FluzzVencido_13: -5261059355657704587
+      FluzzVencido_14: 7126985595897312495
+      FluzzVencido_2: 2696016914140618989
+      FluzzVencido_3: -5483518798238620776
+      FluzzVencido_4: 4841788591095070958
+      FluzzVencido_5: -5596496025871858449
+      FluzzVencido_6: 2937070750616993702
+      FluzzVencido_7: -2803088068631684255
+      FluzzVencido_8: -6297157672246690052
+      FluzzVencido_9: 1382118594740409045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
