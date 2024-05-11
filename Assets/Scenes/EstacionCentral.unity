@@ -1477,7 +1477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b39041e34bfc7469c5c7ff885f27db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mundo: MudnoAcuaticoV3
+  mundo: MundoAcuaticoV3
 --- !u!1001 &1817110646
 PrefabInstance:
   m_ObjectHideFlags: 0
