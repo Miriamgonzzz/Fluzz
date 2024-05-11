@@ -218,6 +218,7 @@ RectTransform:
   - {fileID: 255511509}
   - {fileID: 389029725}
   - {fileID: 1631407949}
+  - {fileID: 278205004}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -308,10 +309,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 190cb5cc9611aba42a9b543630bde04b, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 278205005}
+        m_TargetAssemblyTypeName: NavegacionEntreEscenas, Assembly-CSharp
+        m_MethodName: salirJuego
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -319,7 +320,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Salir
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &142693270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,7 +341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7868377687791770568, guid: efa26cd24bc54c1429b0a740427ef1c9, type: 3}
+  m_Sprite: {fileID: 7868377687791770568, guid: 9eee12563ec8ea34fb3e2733c19946e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -441,10 +442,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 190cb5cc9611aba42a9b543630bde04b, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 278205005}
+        m_TargetAssemblyTypeName: NavegacionEntreEscenas, Assembly-CSharp
+        m_MethodName: IrTutorial
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -452,7 +453,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Tutorial
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &255511511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,7 +474,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7868377687791770568, guid: efa26cd24bc54c1429b0a740427ef1c9, type: 3}
+  m_Sprite: {fileID: 7868377687791770568, guid: 9eee12563ec8ea34fb3e2733c19946e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -491,6 +492,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255511508}
   m_CullTransparentMesh: 1
+--- !u!1 &278205003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 278205004}
+  - component: {fileID: 278205005}
+  m_Layer: 5
+  m_Name: ControlBotones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &278205004
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278205003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 60744400}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &278205005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278205003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b39041e34bfc7469c5c7ff885f27db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mundo: 
 --- !u!1 &389029724
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,7 +644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8988201818128660162, guid: 07e97c10a49b7d3438c7e944019103bc, type: 3}
+  m_Sprite: {fileID: 8988201818128660162, guid: c2f905ecd7735e840b05fcfdfa15f231, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1092,7 +1142,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5342087446902709798, guid: 9e6388852d49b1145be0008185c49e50, type: 3}
+  m_Sprite: {fileID: -5342087446902709798, guid: cae883c20abdb0c43b13b0404835b840, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1100,7 +1150,7 @@ SpriteRenderer:
   m_Size: {x: 24.692694, y: 15.67}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1511440771
@@ -1221,7 +1271,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 961754386268858290, guid: 7131f05f8da77744091d1be44eccdd0f, type: 3}
+  m_Sprite: {fileID: 961754386268858290, guid: 0e52038881df6e54b84f1bf91736a3e8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

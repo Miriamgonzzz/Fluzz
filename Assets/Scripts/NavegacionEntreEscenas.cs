@@ -38,10 +38,14 @@ public class NavegacionEntreEscenas : MonoBehaviour
             estaEnLaPuerta = false;
         }
     }
-    public void PuertaAcuatica()
-    {
-        
+    public void IrTutorial(){
+        SceneManager.LoadScene("Tutorial");
 
     }
+    public void salirJuego()
+    {
+        Application.Quit();
+    }
+    
 
 }
