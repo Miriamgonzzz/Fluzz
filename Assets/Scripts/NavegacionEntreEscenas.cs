@@ -28,6 +28,8 @@ public class NavegacionEntreEscenas : MonoBehaviour
         {
             estaEnLaPuerta = true;
         }
+
+
     }
 
     private void OnTriggerExit2D(Collider2D other)
