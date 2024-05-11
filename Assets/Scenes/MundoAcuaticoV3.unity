@@ -7091,8 +7091,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 30
+<<<<<<< Updated upstream
   colorReposo: {r: 0.49019608, g: 0.37254903, b: 0.08235294, a: 1}
   colorDano: {r: 0.85882354, g: 0.14117648, b: 0.14117648, a: 0.6666667}
+=======
+  colorReposo: {r: 0.49056602, g: 0.37222773, b: 0.08176095, a: 1}
+  colorDano: {r: 0.8584906, g: 0.14308168, b: 0.14308168, a: 0.6666667}
+>>>>>>> Stashed changes
   objetivo: {fileID: 512850457}
   velocidad: 2
   animator: {fileID: 770573674}
