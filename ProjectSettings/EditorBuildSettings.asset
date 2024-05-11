@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 501627da7a656834bb89a4d3fba9fd93
   - enabled: 1
-    path: "Assets/Scenes/Estaci\xF3n central.unity"
+    path: Assets/Scenes/EstacionCentral.unity
     guid: 771fbcbfef3282c4e99046c483f46d2a
   - enabled: 1
     path: Assets/Scenes/MundoAcuaticoV3.unity
