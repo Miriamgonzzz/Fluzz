@@ -10,6 +10,7 @@ TagManager:
   - Pegar
   - AtaqueEnemigo
   - Limite
+  - Fluzz
   layers:
   - Default
   - TransparentFX
