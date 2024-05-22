@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OniBoss1_0: 5130854544645981907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

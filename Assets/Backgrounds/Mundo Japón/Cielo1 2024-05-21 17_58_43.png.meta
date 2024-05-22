@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cielo1 2024-05-21 17_58_43_0: 3520171181632695377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

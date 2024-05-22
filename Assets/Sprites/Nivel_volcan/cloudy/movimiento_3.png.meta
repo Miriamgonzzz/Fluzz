@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4b38c8f4b8958f8448da21c0f3193d72
+guid: b4a708cad6659ad4580e9147e3f26ae0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6613425869865724484
-    second: claudio_0
+      213: -1474137110472563286
+    second: movimiento_3_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: claudio_0
+      name: movimiento_3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2880
-        height: 1740
+        x: 865
+        y: 533
+        width: 1066
+        height: 1022
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb55646f5346834a0800000000000000
-      internalID: -6613425869865724484
+      spriteID: aa5ef0cbb10da8be0800000000000000
+      internalID: -1474137110472563286
       vertices: []
       indices: 
       edges: []

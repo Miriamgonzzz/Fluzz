@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kitsune_movimiento_2_0: 1741643090509373933
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
