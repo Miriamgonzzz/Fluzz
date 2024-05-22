@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Montan\u0303a 2024-05-21 17_58_46_0": -6428929079505276763
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fluzz_fenix_movimiento_6_0: 4115589768099750091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

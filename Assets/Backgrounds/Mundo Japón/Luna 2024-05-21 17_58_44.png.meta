@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Luna 2024-05-21 17_58_44_0: 4238265628775882544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

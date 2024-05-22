@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tejado3 2024-05-21 17_56_29_0: -8513577366823573111
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

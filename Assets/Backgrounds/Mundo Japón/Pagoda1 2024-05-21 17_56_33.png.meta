@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pagoda1 2024-05-21 17_56_33_0: -6570233417038308809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

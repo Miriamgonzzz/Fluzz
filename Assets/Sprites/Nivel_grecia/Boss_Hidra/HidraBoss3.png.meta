@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HidraBoss3_0: -8125004790901347550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

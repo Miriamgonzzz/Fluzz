@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nube 2 2024-05-21 17_58_41_0: 2014622445021777085
+      Nube 2 2024-05-21 17_58_41_1: 776753231950491863
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

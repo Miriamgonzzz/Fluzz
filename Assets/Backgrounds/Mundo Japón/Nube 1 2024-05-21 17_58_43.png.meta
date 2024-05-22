@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nube 1 2024-05-21 17_58_43_0: -8932419801067026712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

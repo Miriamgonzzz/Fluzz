@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sombrilla_0: -1705849735403394291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

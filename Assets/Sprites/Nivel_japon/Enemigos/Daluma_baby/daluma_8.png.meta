@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      daluma_8_0: -7858196614467378188
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
