@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fondo_grecia_0: -5331080592421630239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 86d6c6f95ba529340a3eaae1e875bcc0
+guid: c4fb7d6ca84bec944a04a294873f185a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6788030604882148940
-    second: Minotauro_salto_8_0
+      213: 4866723033015219870
+    second: ataque_pam_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Minotauro_salto_8_0
+      name: ataque_pam_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 336
-        height: 268
+        x: 1086
+        y: 832
+        width: 189
+        height: 283
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b1058f11221cc1a0800000000000000
-      internalID: -6788030604882148940
+      spriteID: e96751340d21a8340800000000000000
+      internalID: 4866723033015219870
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Minotauro_salto_8_0: -6788030604882148940
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

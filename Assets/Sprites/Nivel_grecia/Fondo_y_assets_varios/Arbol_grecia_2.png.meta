@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Arbol_grecia_2_0: 2111864419309128565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
