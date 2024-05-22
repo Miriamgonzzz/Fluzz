@@ -176,7 +176,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shogunzzz_3_0: -7228307066569123440
+      shogunzzz_3_1: -515327922969305258
+      shogunzzz_3_2: 5350526886083709067
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

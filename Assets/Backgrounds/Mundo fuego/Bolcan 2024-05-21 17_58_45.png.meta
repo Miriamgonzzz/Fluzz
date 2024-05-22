@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bolcan 2024-05-21 17_58_45_0: -3063422007501551796
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

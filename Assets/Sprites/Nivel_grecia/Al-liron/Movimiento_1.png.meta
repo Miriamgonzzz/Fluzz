@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Movimiento_1_0: -377731070811208303
+      Movimiento_1_1: -2912785501777974761
+      Movimiento_1_2: -8675425901515659230
+      Movimiento_1_3: 1897926186741030466
+      Movimiento_1_4: 9053304680405575089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

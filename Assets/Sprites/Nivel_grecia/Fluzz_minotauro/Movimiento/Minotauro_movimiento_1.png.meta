@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Minotauro_movimiento_1_0: 6895664516385938250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

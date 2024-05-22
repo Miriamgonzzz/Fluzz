@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kitsune_salto_10_0: -480649241349247937
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

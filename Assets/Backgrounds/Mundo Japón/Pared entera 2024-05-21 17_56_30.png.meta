@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pared entera 2024-05-21 17_56_30_0: -7568970047693789387
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
