@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Minotauro_salto_7_0: 5083735300326565463
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

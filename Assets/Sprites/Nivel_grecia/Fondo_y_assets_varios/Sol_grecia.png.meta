@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sol_grecia_0: 7627284976765915294
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 86d6c6f95ba529340a3eaae1e875bcc0
+guid: 1111bc5de170bbc478983eefcb11c2f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6788030604882148940
-    second: Minotauro_salto_8_0
+      213: 1464346688225540771
+    second: movimiento_4_0
+  - first:
+      213: 1240963116406152311
+    second: movimiento_4_1
+  - first:
+      213: 4222553612932863761
+    second: movimiento_4_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Minotauro_salto_8_0
+      name: movimiento_4_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 336
-        height: 268
+        x: 793
+        y: 546
+        width: 1077
+        height: 653
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +118,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b1058f11221cc1a0800000000000000
-      internalID: -6788030604882148940
+      spriteID: 3aaf3b3fd87625410800000000000000
+      internalID: 1464346688225540771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento_4_1
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1198
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c10c42169c83110800000000000000
+      internalID: 1240963116406152311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: movimiento_4_2
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 510
+        width: 242
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117d7ef8326899a30800000000000000
+      internalID: 4222553612932863761
       vertices: []
       indices: 
       edges: []
@@ -128,8 +176,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Minotauro_salto_8_0: -6788030604882148940
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
