@@ -216,9 +216,10 @@ GameObject:
   - component: {fileID: 146680106}
   - component: {fileID: 146680105}
   - component: {fileID: 146680104}
+  - component: {fileID: 146680108}
   m_Layer: 0
   m_Name: OniBoss1_0
-  m_TagString: Untagged
+  m_TagString: MazaOni
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -360,6 +361,18 @@ Transform:
   - {fileID: 807632011}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &146680108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146680103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f7b30c5f954a3458112abee6f96e69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &148401827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1798,7 +1811,7 @@ GameObject:
   - component: {fileID: 807632012}
   m_Layer: 0
   m_Name: PiernaIzquierda
-  m_TagString: Untagged
+  m_TagString: PiernaIzquierda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1963,7 +1976,7 @@ GameObject:
   - component: {fileID: 887323224}
   m_Layer: 0
   m_Name: PiernaDerecha
-  m_TagString: Untagged
+  m_TagString: PiernaDerecha
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3135,7 +3148,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 15.755974
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3160,7 +3173,7 @@ Transform:
   m_GameObject: {fileID: 1447581949}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -58.6, y: -50.9, z: -22.6}
+  m_LocalPosition: {x: -58.6, y: -50.9, z: -30.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3277,7 +3290,7 @@ Transform:
   m_GameObject: {fileID: 1462343105}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.4, y: -54.3, z: -15.8}
+  m_LocalPosition: {x: -44.6, y: -54.3, z: -23.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
