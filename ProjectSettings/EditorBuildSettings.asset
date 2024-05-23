@@ -29,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MundoJapon.unity
     guid: 08013b74ef0118140bf1651dc1c3dbd8
+  - enabled: 1
+    path: Assets/Scenes/MundoAcuaticoOK.unity
+    guid: 05d3937b4ef40224aac741bddeaaa5ac
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
