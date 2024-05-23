@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 6697867908178293921}
   - component: {fileID: 760103946460955336}
   - component: {fileID: 6432602716448117795}
-  - component: {fileID: 4470878390223978238}
+  - component: {fileID: 7073768181117720997}
   m_Layer: 0
   m_Name: DrakenPerla
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,7 +138,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -150,7 +150,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4470878390223978238
+--- !u!114 &7073768181117720997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6061591684424178715}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec9e403c105a2df4fa50b6ac74fcfc0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a6998b1856f48f41af3a33844276016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   distanciaMaxima: 10

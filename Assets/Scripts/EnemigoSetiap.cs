@@ -152,6 +152,6 @@ public class EnemigoSetiap : MonoBehaviour
 
      public void victoria()
     {
-        SceneManager.LoadScene("SuperaMundoAcuatico"); // Carga la escena con el nombre especificado
+        SceneManager.LoadScene("EstacionCentral"); // Carga la escena con el nombre especificado
     }
 }
