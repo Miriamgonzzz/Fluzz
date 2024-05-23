@@ -9,6 +9,7 @@ public class EnemigoTipo1 : MonoBehaviour
     public Color colorReposo;
     public Color colorDano;
     SpriteRenderer spriteRenderer;
+    private bool hasFired = false; // Variable de control para asegurarnos que solo dispare una vez
 
 
     public Transform objetivo;

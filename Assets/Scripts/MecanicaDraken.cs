@@ -13,20 +13,35 @@ public class MecanicaDraken : MonoBehaviour
     private float ultimoDisparo;
     public float velocidadDisparo = 50;
     public string orientacion;
+        private bool hasFired = false; // Variable de control para asegurarnos que solo dispare una vez
+     public GameObject objetivo; // El objetivo al que se disparará
     void Start()
     {
-        
+        InvokeRepeating("disparar", 3.0f, 3.0f); 
     }
+
+    private void disparar(){
+          if (deteccionFluz  && !hasFired)
+        {
+            Debug.Log("veo a Fluzz");
+            disparo();
+            hasFired = true; // Marca que ya se ha disparado
+        }else{
+               hasFired = false; 
+        }
+    }
+
 
     // Update is called once per frame
     void Update()
     {
 
 
-        if (deteccionFluz)
+        if (deteccionFluz  && !hasFired)
         {
             Debug.Log("veo a Fluzz");
             disparo();
+            hasFired = true; // Marca que ya se ha disparado
         }
 
     }
@@ -53,18 +68,15 @@ public class MecanicaDraken : MonoBehaviour
     {
 
 
-        var perla = Instantiate(disparoPerla, PuntoDeDisparo.position, Quaternion.identity);
+         var perla = Instantiate(disparoPerla, PuntoDeDisparo.position, Quaternion.identity);
         perla.transform.SetParent(null);
 
-        if (orientacion == "derecha")
-        {
-            perla.GetComponent<Rigidbody2D>().velocity = Vector2.right * velocidadDisparo;
-        }
-        else
-        {
-            perla.GetComponent<Rigidbody2D>().velocity = Vector2.left * velocidadDisparo;
+       
+        // Calcula la dirección desde el punto de disparo hasta el objetivo
+        Vector2 direccion = (objetivo.transform.position - PuntoDeDisparo.position).normalized;
 
-        }
+        // Aplica la dirección a la velocidad del proyectil
+        perla.GetComponent<Rigidbody2D>().velocity = direccion * velocidadDisparo;
 
 
     }
