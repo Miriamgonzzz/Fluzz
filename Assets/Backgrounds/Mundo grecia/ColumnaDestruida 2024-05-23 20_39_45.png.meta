@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7fdaf6f35f995574d8d785b745613956
+guid: 389897ea47c6e5341bda58002ba9c473
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3274554537177561957
-    second: daluma_6_0
+      213: -3535397024210018800
+    second: ColumnaDestruida 2024-05-23 20_39_45_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: daluma_6_0
+      name: ColumnaDestruida 2024-05-23 20_39_45_0
       rect:
         serializedVersion: 2
-        x: 842
-        y: 465
-        width: 1005
-        height: 1005
+        x: 709
+        y: 324
+        width: 1312
+        height: 1616
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9443ed6ff17e82d0800000000000000
-      internalID: -3274554537177561957
+      spriteID: 01e1df7432fbfeec0800000000000000
+      internalID: -3535397024210018800
       vertices: []
       indices: 
       edges: []
@@ -121,15 +121,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      daluma_6_0: -3274554537177561957
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 7fdaf6f35f995574d8d785b745613956
+guid: d7c7b8cbdbb17834da2474fb881e8488
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3274554537177561957
-    second: daluma_6_0
+      213: 3568871808678997101
+    second: Piedras 2024-05-23 20_39_49_0
+  - first:
+      213: 7613561085446697922
+    second: Piedras 2024-05-23 20_39_49_1
+  - first:
+      213: -7521370494057004575
+    second: Piedras 2024-05-23 20_39_49_2
+  - first:
+      213: 5175707164986871406
+    second: Piedras 2024-05-23 20_39_49_3
+  - first:
+      213: 2362564798194592148
+    second: Piedras 2024-05-23 20_39_49_4
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -98,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: daluma_6_0
+      name: Piedras 2024-05-23 20_39_49_0
       rect:
         serializedVersion: 2
-        x: 842
-        y: 465
-        width: 1005
-        height: 1005
+        x: 1254
+        y: 1721
+        width: 38
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +124,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9443ed6ff17e82d0800000000000000
-      internalID: -3274554537177561957
+      spriteID: d6ca735500e278130800000000000000
+      internalID: 3568871808678997101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras 2024-05-23 20_39_49_1
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1729
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3b9c5087dc8a960800000000000000
+      internalID: 7613561085446697922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras 2024-05-23 20_39_49_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 174
+        width: 2563
+        height: 1509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1c0a5b269be9790800000000000000
+      internalID: -7521370494057004575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras 2024-05-23 20_39_49_3
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1677
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e8c769e3ec3d740800000000000000
+      internalID: 5175707164986871406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piedras 2024-05-23 20_39_49_4
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 370
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4992b33aa2489c020800000000000000
+      internalID: 2362564798194592148
       vertices: []
       indices: 
       edges: []
@@ -121,15 +217,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      daluma_6_0: -3274554537177561957
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
