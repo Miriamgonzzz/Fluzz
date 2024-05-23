@@ -27,18 +27,15 @@ public class Karakasa_obake : MonoBehaviour
     {
         if (movingUp)
         {
-            Debug.Log("Subiendo");
             transform.Translate(Vector2.up * speed * Time.deltaTime);
             if (transform.position.y >= upBoundary.position.y)
             {
                 // Si alcanza el límite superior, cambia de dirección
                 movingUp = false;
-                Debug.Log("Alcanzado el límite superior");
             }
         }
         else
         {
-            Debug.Log("Bajando");
             transform.Translate(Vector2.down * speed * Time.deltaTime);
             if (transform.position.y <= downBoundary.position.y)
             {
@@ -49,15 +46,13 @@ public class Karakasa_obake : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Fluzz"))
         {
-            // Aquí puedes implementar la lógica de perder
-            Debug.Log("Jugador ha perdido!");
-            // Ejemplo: destruir el jugador o reiniciar la escena
-            // Destroy(collision.gameObject);
-            // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Debug.Log("Ha chocado contra Fluzz");
         }
+
+
     }
 }
