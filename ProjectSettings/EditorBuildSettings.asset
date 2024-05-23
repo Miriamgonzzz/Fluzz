@@ -15,12 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/EstacionCentral.unity
     guid: 771fbcbfef3282c4e99046c483f46d2a
   - enabled: 1
-    path: Assets/Scenes/MundoAcuaticoV3.unity
-    guid: 7b631ee0313b6bb418e1b8f60d58d0cb
-  - enabled: 1
-    path: Assets/Scenes/desechos/MundoSubmaarino.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/FinalMundoAcuatico.unity
     guid: e3d15505751163b439485511ab97c135
   - enabled: 1
