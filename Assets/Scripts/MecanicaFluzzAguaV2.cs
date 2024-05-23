@@ -146,6 +146,20 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
             StopAllCoroutines();
             StartCoroutine(Dano());
     }
+
+    
+ if (collision.gameObject.CompareTag("Premio")){
+            vida += 100;
+            if(vida > 100){
+                vida=100;
+            }
+            barraVida.CambiarVidaActual(vida);
+
+           
+            
+            Debug.Log("Vida Fluzz: " + vida);
+
+ }
         
     }
 
@@ -169,5 +183,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
     {
         SceneManager.LoadScene("FinalMundoAcuatico"); // Carga la escena con el nombre especificado
     }
+
+ 
 
 }
