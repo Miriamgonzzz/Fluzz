@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Suelo 3 2024-05-23 20_39_44_0: -479021393030439724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
