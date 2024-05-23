@@ -50,7 +50,7 @@ public class Karakasa_obake : MonoBehaviour
     {
         if (other.CompareTag("Fluzz"))
         {
-            Debug.Log("Ha chocado contra Fluzz");
+            other.transform.position = respawnPoint.position;
         }
 
 
