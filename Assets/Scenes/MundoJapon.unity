@@ -708,7 +708,7 @@ Transform:
   m_GameObject: {fileID: 146680103}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 388.8, y: -37.5, z: -18.1}
+  m_LocalPosition: {x: 388.8, y: -38.3, z: -18.1}
   m_LocalScale: {x: 1.9729, y: 2.166, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -728,6 +728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0f7b30c5f954a3458112abee6f96e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 1715677146}
 --- !u!1001 &148401827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5250,6 +5251,7 @@ GameObject:
   - component: {fileID: 807632011}
   - component: {fileID: 807632013}
   - component: {fileID: 807632012}
+  - component: {fileID: 807632014}
   m_Layer: 0
   m_Name: PiernaIzquierda
   m_TagString: PiernaIzquierda
@@ -5370,6 +5372,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &807632014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807632010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f7b30c5f954a3458112abee6f96e69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 1715677146}
 --- !u!1 &842597897
 GameObject:
   m_ObjectHideFlags: 0
@@ -5502,6 +5517,7 @@ GameObject:
   - component: {fileID: 887323223}
   - component: {fileID: 887323225}
   - component: {fileID: 887323224}
+  - component: {fileID: 887323226}
   m_Layer: 0
   m_Name: PiernaDerecha
   m_TagString: PiernaDerecha
@@ -5622,6 +5638,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &887323226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887323222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f7b30c5f954a3458112abee6f96e69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 1715677146}
 --- !u!1 &889008877
 GameObject:
   m_ObjectHideFlags: 0
@@ -8427,7 +8456,7 @@ Transform:
   m_GameObject: {fileID: 1462343105}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.5, y: 9.4, z: -23.1}
+  m_LocalPosition: {x: 349.7, y: -50.2, z: -23.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11611,7 +11640,7 @@ Transform:
   m_GameObject: {fileID: 2027861435}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 412.3, y: -51.3, z: 0}
+  m_LocalPosition: {x: 412.3, y: -51.7, z: 0}
   m_LocalScale: {x: 1.1026654, y: 2.2053308, z: 0.99116}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12692,7 +12721,6 @@ SceneRoots:
   - {fileID: 44516982}
   - {fileID: 721667575}
   - {fileID: 1209617900}
-  - {fileID: 146680107}
   - {fileID: 2027861437}
   - {fileID: 1236719576}
   - {fileID: 301123085}
@@ -12705,6 +12733,7 @@ SceneRoots:
   - {fileID: 1060023259}
   - {fileID: 96710208}
   - {fileID: 529544243}
+  - {fileID: 146680107}
   - {fileID: 299184398}
   - {fileID: 1560856623}
   - {fileID: 2144466441}
