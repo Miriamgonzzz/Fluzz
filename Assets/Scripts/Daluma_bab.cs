@@ -18,6 +18,7 @@ public class Daluma_bab : MonoBehaviour
     {
 
         animator = GetComponent<Animator>();
+        FlipDirection();
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class Daluma_bab : MonoBehaviour
             {
                 // Si alcanza el límite derecho, cambia de dirección
                 movingRight = false;
+                FlipDirection();
             }
         }
         else
@@ -39,9 +41,18 @@ public class Daluma_bab : MonoBehaviour
             {
                 // Si alcanza el límite izquierdo, cambia de dirección
                 movingRight = true;
+                FlipDirection();
             }
 
         }
+    }
+
+    private void FlipDirection()
+    {
+        // Voltear la escala en el eje Y para cambiar la dirección
+        Vector3 newScale = transform.localScale;
+        newScale.x *= -1;
+        transform.localScale = newScale;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
