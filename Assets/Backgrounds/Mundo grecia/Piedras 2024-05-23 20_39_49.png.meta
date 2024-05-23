@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Piedras 2024-05-23 20_39_49_0: 3568871808678997101
+      Piedras 2024-05-23 20_39_49_1: 7613561085446697922
+      Piedras 2024-05-23 20_39_49_2: -7521370494057004575
+      Piedras 2024-05-23 20_39_49_3: 5175707164986871406
+      Piedras 2024-05-23 20_39_49_4: 2362564798194592148
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

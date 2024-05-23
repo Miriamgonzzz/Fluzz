@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Panteo\u0301n 2024-05-23 20_39_50_0": 4069821012882841362
+      "Panteo\u0301n 2024-05-23 20_39_50_1": -5280550072021861483
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

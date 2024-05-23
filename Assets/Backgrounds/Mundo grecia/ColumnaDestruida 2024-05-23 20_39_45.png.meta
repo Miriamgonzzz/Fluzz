@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ColumnaDestruida 2024-05-23 20_39_45_0: -3535397024210018800
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Columna 1 2024-05-23 20_39_46_0: -6109835393954931201
+      Columna 1 2024-05-23 20_39_46_1: 8702703039222346242
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
