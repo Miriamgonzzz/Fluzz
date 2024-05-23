@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 62e07740f3a1de94183eb1d604651f5d
+guid: cd2e7625dc5b474448612c3acda83f4b
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1617117762022217259
     second: movimiento_1_0
-  - first:
-      213: -4356207686619824267
-    second: movimiento_1_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -104,10 +101,10 @@ TextureImporter:
       name: movimiento_1_0
       rect:
         serializedVersion: 2
-        x: 1190
-        y: 727
-        width: 6
-        height: 6
+        x: 889
+        y: 308
+        width: 1188
+        height: 1308
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,40 +118,17 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: movimiento_1_1
-      rect:
-        serializedVersion: 2
-        x: 1191
-        y: 464
-        width: 498
-        height: 809
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57ff23f6034ab83c0800000000000000
-      internalID: -4356207686619824267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      movimiento_1_0: -1617117762022217259
-      movimiento_1_1: -4356207686619824267
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
