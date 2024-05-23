@@ -200,7 +200,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nubes_grecia_0: -7832593279174023441
+      Nubes_grecia_1: -7022033933133724158
+      Nubes_grecia_2: 1820256613068563780
+      Nubes_grecia_3: -3332207793986550751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
