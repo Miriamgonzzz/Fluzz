@@ -11,6 +11,9 @@ TagManager:
   - AtaqueEnemigo
   - Limite
   - Fluzz
+  - MazaOni
+  - PiernaDerecha
+  - PiernaIzquierda
   layers:
   - Default
   - TransparentFX

@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MundoAcuaticoV3.unity
     guid: 7b631ee0313b6bb418e1b8f60d58d0cb
   - enabled: 1
-    path: Assets/Scenes/MundoSubmaarino.unity
+    path: Assets/Scenes/desechos/MundoSubmaarino.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/FinalMundoAcuatico.unity
@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SuperaMundoAcuatico.unity
     guid: b151d31b82aa7b842990b701668f0b9d
+  - enabled: 1
+    path: Assets/Scenes/MundoJapon.unity
+    guid: 08013b74ef0118140bf1651dc1c3dbd8
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
