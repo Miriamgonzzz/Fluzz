@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 1be4e1bbaa227d64c8cce2a8d1629eac
+guid: ed00240341982734c95ec812b16c2b97
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8420294351055461645
-    second: Arbol_grecia_0
-  - first:
-      213: -2378684470779337318
-    second: Arbol_grecia_1
-  - first:
-      213: 2949344253473643418
-    second: Arbol_grecia_2
-  - first:
-      213: 2364938625065850419
-    second: Arbol_grecia_3
-  - first:
-      213: 3330083324998668708
-    second: Arbol_grecia_4
+      213: -5331080592421630239
+    second: Fondo_grecia_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,97 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Arbol_grecia_0
+      name: Fondo_grecia_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 17
-        width: 847
-        height: 794
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0d93e28915ead470800000000000000
-      internalID: 8420294351055461645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arbol_grecia_1
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 17
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a95a57e93173dfed0800000000000000
-      internalID: -2378684470779337318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arbol_grecia_2
-      rect:
-        serializedVersion: 2
-        x: 381
-        y: 12
-        width: 11
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9bd2a4e8fc2ee820800000000000000
-      internalID: 2949344253473643418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arbol_grecia_3
-      rect:
-        serializedVersion: 2
-        x: 517
-        y: 26
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33696a64623f1d020800000000000000
-      internalID: 2364938625065850419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arbol_grecia_4
-      rect:
-        serializedVersion: 2
-        x: 230
         y: 0
-        width: 8
-        height: 7
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a15ffaf325d63e20800000000000000
-      internalID: 3330083324998668708
+      spriteID: 1eecabb42723406b0800000000000000
+      internalID: -5331080592421630239
       vertices: []
       indices: 
       edges: []
@@ -224,12 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Arbol_grecia_0: 8420294351055461645
-      Arbol_grecia_1: -2378684470779337318
-      Arbol_grecia_2: 2949344253473643418
-      Arbol_grecia_3: 2364938625065850419
-      Arbol_grecia_4: 3330083324998668708
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
