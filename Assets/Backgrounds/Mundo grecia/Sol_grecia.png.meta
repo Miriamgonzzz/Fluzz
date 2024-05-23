@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 998565348fcec9341885219d13573327
+guid: 4cb22c3ecf35220448478272d38cbe90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2111864419309128565
-    second: Arbol_grecia_2_0
+      213: 7627284976765915294
+    second: Sol_grecia_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Arbol_grecia_2_0
+      name: Sol_grecia_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 315
-        height: 1024
+        width: 382
+        height: 373
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57b05be0089de4d10800000000000000
-      internalID: 2111864419309128565
+      spriteID: e905ec8764f89d960800000000000000
+      internalID: 7627284976765915294
       vertices: []
       indices: 
       edges: []
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Arbol_grecia_2_0: 2111864419309128565
+      Sol_grecia_0: 7627284976765915294
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
