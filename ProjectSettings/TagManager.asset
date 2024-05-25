@@ -15,6 +15,7 @@ TagManager:
   - PiernaDerecha
   - PiernaIzquierda
   - Premio
+  - aplastar
   layers:
   - Default
   - TransparentFX
