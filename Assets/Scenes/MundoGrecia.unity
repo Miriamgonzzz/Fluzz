@@ -2247,7 +2247,7 @@ GameObject:
   - component: {fileID: 624926737}
   m_Layer: 0
   m_Name: roca_0
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2286,7 +2286,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.06824303, y: 0.30434608}
+  m_Offset: {x: 0.06824303, y: -0.07237846}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2296,7 +2296,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.498661, y: 2.9164553}
+  m_Size: {x: 4.498661, y: 2.1630063}
   m_EdgeRadius: 0
 --- !u!212 &624926735
 SpriteRenderer:
@@ -5538,7 +5538,7 @@ GameObject:
   - component: {fileID: 1654577674}
   m_Layer: 0
   m_Name: roca_0 (1)
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5604,7 +5604,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.1074543, y: 0.21490884}
+  m_Offset: {x: -0.1074543, y: -0.16181576}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5614,7 +5614,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.638912, y: 3.6005483}
+  m_Size: {x: 4.638912, y: 2.847099}
   m_EdgeRadius: 0
 --- !u!212 &1654577676
 SpriteRenderer:
@@ -6756,6 +6756,14 @@ PrefabInstance:
     - target: {fileID: 5518687022358124792, guid: 7517166416e6fd8498b61b94de5f76c7, type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116763917380919751, guid: 7517166416e6fd8498b61b94de5f76c7, type: 3}
+      propertyPath: fuerzaSalto
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116763917380919751, guid: 7517166416e6fd8498b61b94de5f76c7, type: 3}
+      propertyPath: velocidadYDuranteSalto
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8908345085333661657, guid: 7517166416e6fd8498b61b94de5f76c7, type: 3}
       propertyPath: m_LocalScale.y
