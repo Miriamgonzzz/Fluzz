@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: d7c7b8cbdbb17834da2474fb881e8488
+guid: 69319380b540bf84dbf6e3fac9506c57
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3568871808678997101
-    second: Piedras 2024-05-23 20_39_49_0
+      213: -8798754469863699153
+    second: Burbujas derrota enemigo 1_0
   - first:
-      213: 7613561085446697922
-    second: Piedras 2024-05-23 20_39_49_1
+      213: -775136636171060412
+    second: Burbujas derrota enemigo 1_1
   - first:
-      213: -7521370494057004575
-    second: Piedras 2024-05-23 20_39_49_2
+      213: 1905900424252159892
+    second: Burbujas derrota enemigo 1_2
   - first:
-      213: 5175707164986871406
-    second: Piedras 2024-05-23 20_39_49_3
+      213: -1998862669248250138
+    second: Burbujas derrota enemigo 1_3
   - first:
-      213: 2362564798194592148
-    second: Piedras 2024-05-23 20_39_49_4
+      213: 3410701591687389936
+    second: Burbujas derrota enemigo 1_4
+  - first:
+      213: -7572833196922957250
+    second: Burbujas derrota enemigo 1_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Piedras 2024-05-23 20_39_49_0
+      name: Burbujas derrota enemigo 1_0
       rect:
         serializedVersion: 2
-        x: 1254
-        y: 1721
-        width: 38
-        height: 21
+        x: 0
+        y: 473
+        width: 352
+        height: 315
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6ca735500e278130800000000000000
-      internalID: 3568871808678997101
+      spriteID: f2dc4ed6d6b84e580800000000000000
+      internalID: -8798754469863699153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piedras 2024-05-23 20_39_49_1
+      name: Burbujas derrota enemigo 1_1
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 1729
-        width: 7
-        height: 7
+        x: 406
+        y: 677
+        width: 151
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c3b9c5087dc8a960800000000000000
-      internalID: 7613561085446697922
+      spriteID: 44bf1a416592e35f0800000000000000
+      internalID: -775136636171060412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piedras 2024-05-23 20_39_49_2
+      name: Burbujas derrota enemigo 1_2
       rect:
         serializedVersion: 2
-        x: 169
-        y: 174
-        width: 2563
-        height: 1509
+        x: 72
+        y: 209
+        width: 276
+        height: 246
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e1c0a5b269be9790800000000000000
-      internalID: -7521370494057004575
+      spriteID: 497f0d4865e137a10800000000000000
+      internalID: 1905900424252159892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piedras 2024-05-23 20_39_49_3
+      name: Burbujas derrota enemigo 1_3
       rect:
         serializedVersion: 2
-        x: 1315
-        y: 1677
-        width: 7
-        height: 16
+        x: 382
+        y: 434
+        width: 206
+        height: 185
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6e8c769e3ec3d740800000000000000
-      internalID: 5175707164986871406
+      spriteID: 6ee3ba42efc9244e0800000000000000
+      internalID: -1998862669248250138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piedras 2024-05-23 20_39_49_4
+      name: Burbujas derrota enemigo 1_4
       rect:
         serializedVersion: 2
-        x: 1228
-        y: 370
-        width: 7
-        height: 10
+        x: 262
+        y: 81
+        width: 161
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +211,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4992b33aa2489c020800000000000000
-      internalID: 2362564798194592148
+      spriteID: 0f2e267e60f355f20800000000000000
+      internalID: 3410701591687389936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 1_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 148
+        width: 285
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e321f1a7454e7e690800000000000000
+      internalID: -7572833196922957250
       vertices: []
       indices: 
       edges: []
@@ -225,11 +249,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Piedras 2024-05-23 20_39_49_0: 3568871808678997101
-      Piedras 2024-05-23 20_39_49_1: 7613561085446697922
-      Piedras 2024-05-23 20_39_49_2: -7521370494057004575
-      Piedras 2024-05-23 20_39_49_3: 5175707164986871406
-      Piedras 2024-05-23 20_39_49_4: 2362564798194592148
+      Burbujas derrota enemigo 1_0: -8798754469863699153
+      Burbujas derrota enemigo 1_1: -775136636171060412
+      Burbujas derrota enemigo 1_2: 1905900424252159892
+      Burbujas derrota enemigo 1_3: -1998862669248250138
+      Burbujas derrota enemigo 1_4: 3410701591687389936
+      Burbujas derrota enemigo 1_5: -7572833196922957250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

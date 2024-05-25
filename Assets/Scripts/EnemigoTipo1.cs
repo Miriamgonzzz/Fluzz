@@ -10,6 +10,8 @@ public class EnemigoTipo1 : MonoBehaviour
     public Color colorDano;
     SpriteRenderer spriteRenderer;
     private bool hasFired = false; // Variable de control para asegurarnos que solo dispare una vez
+    Animator animator;
+    private BoxCollider2D colliderEnemigo;
 
 
     public Transform objetivo;
@@ -30,7 +32,9 @@ public class EnemigoTipo1 : MonoBehaviour
     public void Start()
     {
         
-        spriteRenderer = GetComponent<SpriteRenderer>();    
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        colliderEnemigo = GetComponent<BoxCollider2D>();
     }
 
 
@@ -98,7 +102,9 @@ public class EnemigoTipo1 : MonoBehaviour
             transform.localScale = new Vector3(-10, 1, 1);
             if (vida <= 0) {
 
-                Destroy(gameObject);
+                colliderEnemigo.enabled = false;
+                animator.SetBool("muerte", true);
+                
                     
              }
             StopAllCoroutines();
@@ -108,6 +114,11 @@ public class EnemigoTipo1 : MonoBehaviour
        
     }
 
+    private void destruirEnemigo()
+    {
+        Destroy(gameObject);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
@@ -115,7 +126,8 @@ public class EnemigoTipo1 : MonoBehaviour
       if (collision.gameObject.CompareTag("Player")){
 
            vida -= 10;
-             Destroy(gameObject);
+            colliderEnemigo.enabled = false;
+            animator.SetBool("muerte", true);
     
        
          StopAllCoroutines();

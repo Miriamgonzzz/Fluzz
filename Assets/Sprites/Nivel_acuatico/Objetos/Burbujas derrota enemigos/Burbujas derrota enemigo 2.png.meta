@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: fa7705bc2ae1a624caae1ba04e27f303
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1015253522621408510
+    second: Burbujas derrota enemigo 2_0
+  - first:
+      213: -7800245920828608699
+    second: Burbujas derrota enemigo 2_1
+  - first:
+      213: 8821205175829971331
+    second: Burbujas derrota enemigo 2_2
+  - first:
+      213: 3112110125456724361
+    second: Burbujas derrota enemigo 2_3
+  - first:
+      213: 4181245945879318317
+    second: Burbujas derrota enemigo 2_4
+  - first:
+      213: 3912156505700993464
+    second: Burbujas derrota enemigo 2_5
+  - first:
+      213: -4414657344614556468
+    second: Burbujas derrota enemigo 2_6
+  - first:
+      213: 1737477272267433301
+    second: Burbujas derrota enemigo 2_7
+  - first:
+      213: -5746972520545484215
+    second: Burbujas derrota enemigo 2_8
+  - first:
+      213: -2809509687060728358
+    second: Burbujas derrota enemigo 2_9
+  - first:
+      213: 7560621187434099517
+    second: Burbujas derrota enemigo 2_10
+  - first:
+      213: 6895710433082922196
+    second: Burbujas derrota enemigo 2_11
+  - first:
+      213: -3364592973786784043
+    second: Burbujas derrota enemigo 2_12
+  - first:
+      213: -1669125810668047528
+    second: Burbujas derrota enemigo 2_13
+  - first:
+      213: 3386015533395674501
+    second: Burbujas derrota enemigo 2_14
+  - first:
+      213: 325915887980641662
+    second: Burbujas derrota enemigo 2_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_0
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 780
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bdf2bdc4819e1f0800000000000000
+      internalID: -1015253522621408510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 794
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f225899a5ffb390800000000000000
+      internalID: -7800245920828608699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 473
+        width: 352
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381ce24ee573b6a70800000000000000
+      internalID: 8821205175829971331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_3
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 731
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9819eb1abaf603b20800000000000000
+      internalID: 3112110125456724361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 716
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fcdaad805c60a30800000000000000
+      internalID: 4181245945879318317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_5
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 626
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b98a0c4d95ca4630800000000000000
+      internalID: 3912156505700993464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_6
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 684
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc1e21f88cfbb2c0800000000000000
+      internalID: -4414657344614556468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 209
+        width: 276
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555a0d2af52cc1810800000000000000
+      internalID: 1737477272267433301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_8
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 434
+        width: 206
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94284faf0f6ae30b0800000000000000
+      internalID: -5746972520545484215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 213
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5f9b533dd9209d0800000000000000
+      internalID: -2809509687060728358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_10
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 148
+        width: 285
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d333d4e79e8bce860800000000000000
+      internalID: 7560621187434099517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 151
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4dcd59a1c72bf50800000000000000
+      internalID: 6895710433082922196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_12
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 122
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ded9a744809e41d0800000000000000
+      internalID: -3364592973786784043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_13
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 107
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853f1b92be216d8e0800000000000000
+      internalID: -1669125810668047528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_14
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 45
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5850100103b8dfe20800000000000000
+      internalID: 3386015533395674501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burbujas derrota enemigo 2_15
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 31
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dfdb9f5c2e58400800000000000000
+      internalID: 325915887980641662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Burbujas derrota enemigo 2_0: -1015253522621408510
+      Burbujas derrota enemigo 2_1: -7800245920828608699
+      Burbujas derrota enemigo 2_10: 7560621187434099517
+      Burbujas derrota enemigo 2_11: 6895710433082922196
+      Burbujas derrota enemigo 2_12: -3364592973786784043
+      Burbujas derrota enemigo 2_13: -1669125810668047528
+      Burbujas derrota enemigo 2_14: 3386015533395674501
+      Burbujas derrota enemigo 2_15: 325915887980641662
+      Burbujas derrota enemigo 2_2: 8821205175829971331
+      Burbujas derrota enemigo 2_3: 3112110125456724361
+      Burbujas derrota enemigo 2_4: 4181245945879318317
+      Burbujas derrota enemigo 2_5: 3912156505700993464
+      Burbujas derrota enemigo 2_6: -4414657344614556468
+      Burbujas derrota enemigo 2_7: 1737477272267433301
+      Burbujas derrota enemigo 2_8: -5746972520545484215
+      Burbujas derrota enemigo 2_9: -2809509687060728358
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
