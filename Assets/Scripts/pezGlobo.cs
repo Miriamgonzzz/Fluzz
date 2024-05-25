@@ -15,6 +15,7 @@ public class pezGlobo : MonoBehaviour
     private float velocidadX = 2;
     private float velocidadY = -1.2f;
     public Animator animator;
+    private BoxCollider2D colliderEnemigo;
 
 
     public bool perseguir;
@@ -31,7 +32,8 @@ public class pezGlobo : MonoBehaviour
         
         spriteRenderer = GetComponent<SpriteRenderer>();    
         animator = GetComponent<Animator>();
-         animator.SetInteger("modo",1);   
+        colliderEnemigo = GetComponent<BoxCollider2D>();
+        animator.SetInteger("modo",1);   
 
     }
 
@@ -102,14 +104,20 @@ public class pezGlobo : MonoBehaviour
             transform.localScale = new Vector3(-10, 1, 1);
             if (vida <= 0) {
 
-                Destroy(gameObject);
-                    
-             }
+                colliderEnemigo.enabled = false;
+                animator.SetBool("muerte", true);
+
+            }
             StopAllCoroutines();
             StartCoroutine(Dano());
         }
 
        
+    }
+
+    private void destruirEnemigo()
+    {
+        Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -123,9 +131,10 @@ public class pezGlobo : MonoBehaviour
         if (vida <= 0)
         {
 
-            Destroy(gameObject);
+                colliderEnemigo.enabled = false;
+                animator.SetBool("muerte", true);
 
-        }
+            }
          StopAllCoroutines();
         StartCoroutine(Dano());
 
