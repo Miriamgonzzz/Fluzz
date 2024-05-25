@@ -12,6 +12,7 @@ public class MovimientoOniBoss : MonoBehaviour
     private BoxCollider2D colliderMaza;
     private BoxCollider2D colliderPiernaDerecha;
     private BoxCollider2D colliderPiernaIzquierda;
+    public Transform respawnPoint;
     void Start()
     {
         objetoConTagMazaOni = GameObject.FindGameObjectWithTag("MazaOni");
@@ -60,6 +61,16 @@ public class MovimientoOniBoss : MonoBehaviour
     public void ActivarColliderPiernaIzquierda()
     {
         colliderPiernaIzquierda.enabled = true;
+    }
+
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+
+        if (other.gameObject.CompareTag("Fluzz"))
+        {
+            other.transform.position = respawnPoint.position;
+        }
+
     }
 
 }
