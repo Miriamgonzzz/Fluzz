@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3479761941070046592}
   - component: {fileID: 4212547937841560362}
   - component: {fileID: 3368650276332364454}
+  - component: {fileID: -2557218869200923306}
   m_Layer: 0
   m_Name: ataque_pam 1 1
   m_TagString: Untagged
@@ -94,7 +95,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3986158226736576482}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -159,3 +160,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.466836, y: 1.2663832}
   m_EdgeRadius: 0
+--- !u!114 &-2557218869200923306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3986158226736576482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6998b1856f48f41af3a33844276016, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanciaMaxima: 10

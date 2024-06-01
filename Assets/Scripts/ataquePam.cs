@@ -86,7 +86,8 @@ public class ataquePam : MonoBehaviour
         // Aplica la dirección a la velocidad del proyectil
         corchea.GetComponent<Rigidbody2D>().velocity = direccion * velocidadDisparo;
 
-        Destroy(corchea, 2f);
+
+        Destroy(corchea, 1f);
 
 
     }
