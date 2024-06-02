@@ -5,41 +5,53 @@ using UnityEngine;
 public class EnemigoGrecia : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public GameObject enemyPrefab;
     private EdgeCollider2D childCollider;
     private Animator animator;
 
+    // Variables para el movimiento oscilante
+    public float amplitude = 1.0f;  // Amplitud del movimiento (cuánto se mueve hacia arriba y hacia abajo)
+    public float frequency = 1.0f;  // Frecuencia del movimiento (qué tan rápido se mueve hacia arriba y hacia abajo)
+    private Vector3 startPosition;
+
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         childCollider = GetComponentInChildren<EdgeCollider2D>();
+        startPosition = transform.position;  // Guardar la posición inicial
 
-        if(childCollider == null)
+        if (childCollider == null)
         {
-            Debug.Log("No lo detecta");
-
+            Debug.Log("No lo detecta en " + gameObject.name);
         }
         else
         {
-            Debug.Log("He encontrado al hijo");
+            Debug.Log("He encontrado al hijo en " + gameObject.name);
         }
-        
+
+        if (rb == null)
+        {
+            Debug.Log("Rigidbody2D no encontrado en " + gameObject.name);
+        }
     }
 
     void Update()
     {
-        // Aquí puedes manejar cualquier otra lógica del enemigo
+        // Aquí manejamos el movimiento oscilante
+        float newY = startPosition.y + Mathf.Sin(Time.time * frequency) * amplitude;
+        transform.position = new Vector3(startPosition.x, newY, startPosition.z);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Te mato");
+        Debug.Log(gameObject.name + " ha colisionado con " + other.name);
         Invoke("Desaparecer", 1.0f);
     }
 
     public void Desaparecer()
     {
-        // Aquí puedes agregar una animación de muerte antes de destruir el objeto
-        Destroy(gameObject);
+        Debug.Log(gameObject.name + " desaparece");
+        animator.SetTrigger("Die");
+        Destroy(gameObject, 0.5f);
     }
 }
