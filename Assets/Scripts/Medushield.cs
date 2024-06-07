@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Medushield : MonoBehaviour
@@ -56,9 +57,9 @@ public class Medushield : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log(gameObject.name + " ha colisionado con " + other.name);
-
-       
-            Invoke("Desaparecer", 1.0f);
+        Invoke("Desaparecer", 1.0f);
+        other.gameObject.GetComponent<Rebotar>().Rebotando();
+        
         
         
     }
@@ -67,6 +68,6 @@ public class Medushield : MonoBehaviour
     {
         Debug.Log(gameObject.name + " desaparece");
         animator.SetTrigger("Die");
-        Destroy(gameObject, 0.5f);
+        Destroy(gameObject, 0.2f);
     }
 }
