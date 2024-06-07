@@ -60,8 +60,6 @@ public class Alliron : MonoBehaviour
     private void disparo()
     {
 
-        Debug.Log("CAGO UNA CORCHEA");
-
         // Instancia el proyectil en el punto de disparo
         var corchea = Instantiate(disparoCorchea, PuntoDeDisparo.position, Quaternion.identity);
         corchea.transform.SetParent(null);
