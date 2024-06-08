@@ -1,0 +1,784 @@
+fileFormatVersion: 2
+guid: b3e2defd068e7bf40a62ff2dfda16b7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8354558437841446027
+    second: destello_1_0
+  - first:
+      213: -5720326067455342522
+    second: destello_1_1
+  - first:
+      213: -5082664232143497158
+    second: destello_1_2
+  - first:
+      213: 9182526753649389248
+    second: destello_1_3
+  - first:
+      213: -2947927763809498867
+    second: destello_1_4
+  - first:
+      213: 3414335868068191181
+    second: destello_1_5
+  - first:
+      213: 5613888021170633990
+    second: destello_1_6
+  - first:
+      213: 272137817782284451
+    second: destello_1_7
+  - first:
+      213: -8178153717370549412
+    second: destello_1_8
+  - first:
+      213: 5533166839106978019
+    second: destello_1_9
+  - first:
+      213: 4682320494598235228
+    second: destello_1_10
+  - first:
+      213: -6721960538350897923
+    second: destello_1_11
+  - first:
+      213: 8714604425507280382
+    second: destello_1_12
+  - first:
+      213: 4139315755882559070
+    second: destello_1_13
+  - first:
+      213: -7876051237743611867
+    second: destello_1_14
+  - first:
+      213: 7805631353274323859
+    second: destello_1_15
+  - first:
+      213: -2840712236048493175
+    second: destello_1_16
+  - first:
+      213: -6604551108667828919
+    second: destello_1_17
+  - first:
+      213: 4488746691883374742
+    second: destello_1_18
+  - first:
+      213: -6376587305582319339
+    second: destello_1_19
+  - first:
+      213: -3637240666811163278
+    second: destello_1_20
+  - first:
+      213: 5768252694256956004
+    second: destello_1_21
+  - first:
+      213: -7049709150494646969
+    second: destello_1_22
+  - first:
+      213: -1799132520270747249
+    second: destello_1_23
+  - first:
+      213: -6745365380318245858
+    second: destello_1_24
+  - first:
+      213: -5504539875002764206
+    second: destello_1_25
+  - first:
+      213: 1569997908009385819
+    second: destello_1_26
+  - first:
+      213: 114666954071049585
+    second: destello_1_27
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: destello_1_0
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1513
+        width: 128
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bd7397d55ae0c80800000000000000
+      internalID: -8354558437841446027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_1
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1065
+        width: 768
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648caedcfb15d90b0800000000000000
+      internalID: -5720326067455342522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_2
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1402
+        width: 234
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38d08a5fcfb679b0800000000000000
+      internalID: -5082664232143497158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_3
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1217
+        width: 326
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ceeacb6e63ee6f70800000000000000
+      internalID: 9182526753649389248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_4
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 1058
+        width: 599
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d098f9e415bd617d0800000000000000
+      internalID: -2947927763809498867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 743
+        width: 333
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb5410d168226f20800000000000000
+      internalID: 3414335868068191181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_6
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1095
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d32be596988ed40800000000000000
+      internalID: 5613888021170633990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_7
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 607
+        width: 485
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0fcd647e3d6c300800000000000000
+      internalID: 272137817782284451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_8
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 762
+        width: 424
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b8695168c518e80800000000000000
+      internalID: -8178153717370549412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_9
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 710
+        width: 649
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e041f79ce1c9cc40800000000000000
+      internalID: 5533166839106978019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_10
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 950
+        width: 69
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c542f0d8ea1faf040800000000000000
+      internalID: 4682320494598235228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_11
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 842
+        width: 77
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4b66d318cc6b2a0800000000000000
+      internalID: -6721960538350897923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_12
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 700
+        width: 57
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef598649d8e70f870800000000000000
+      internalID: 8714604425507280382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_13
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 635
+        width: 172
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56be8abfbdc17930800000000000000
+      internalID: 4139315755882559070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 285
+        width: 505
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520348dd025a2b290800000000000000
+      internalID: -7876051237743611867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_15
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 516
+        width: 96
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393519b1c5c235c60800000000000000
+      internalID: 7805631353274323859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_16
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 370
+        width: 283
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9855935a543c398d0800000000000000
+      internalID: -2840712236048493175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_17
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 566
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94511f252cbe754a0800000000000000
+      internalID: -6604551108667828919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_18
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 454
+        width: 281
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6981b68755b3b4e30800000000000000
+      internalID: 4488746691883374742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_19
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 422
+        width: 33
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519208351afc187a0800000000000000
+      internalID: -6376587305582319339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_20
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 438
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d9d1c62ece58dc0800000000000000
+      internalID: -3637240666811163278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_21
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 468
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46230ef8343fc0050800000000000000
+      internalID: 5768252694256956004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_22
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 380
+        width: 190
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d12fae0e66a2e90800000000000000
+      internalID: -7049709150494646969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_23
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 372
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89a86941823807e0800000000000000
+      internalID: -1799132520270747249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_24
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 389
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cc9e1dce5a362a0800000000000000
+      internalID: -6745365380318245858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_25
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 282
+        width: 38
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254bc72e522fb93b0800000000000000
+      internalID: -5504539875002764206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_26
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 223
+        width: 233
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f710577c0c9c510800000000000000
+      internalID: 1569997908009385819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destello_1_27
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 253
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17581e8bcf0679100800000000000000
+      internalID: 114666954071049585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
