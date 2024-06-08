@@ -704,7 +704,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      destello_3_0: 5408044073915447271
+      destello_3_1: -3400875108657471050
+      destello_3_10: -5979513524150303597
+      destello_3_11: -6717117935714763187
+      destello_3_12: -4911257682337091258
+      destello_3_13: -5392317796315131845
+      destello_3_14: 3208812222454552386
+      destello_3_15: -2289521894262083818
+      destello_3_16: -5696118952672624631
+      destello_3_17: 8493490538838153617
+      destello_3_18: -6913928384289705714
+      destello_3_19: -1213595636299229632
+      destello_3_2: 7556008178243835960
+      destello_3_20: 3634738432859638124
+      destello_3_21: -3764087878315933273
+      destello_3_22: -7165088658719804945
+      destello_3_23: 3648511566098446839
+      destello_3_24: -6599134921343994949
+      destello_3_3: 840157746859291305
+      destello_3_4: 6669210520648135042
+      destello_3_5: 6431080896952657879
+      destello_3_6: 4842578084412184276
+      destello_3_7: -6422676067580162417
+      destello_3_8: 3194560077388169650
+      destello_3_9: -3891080351578861652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -46,6 +46,7 @@ public class EnemigoGrecia : MonoBehaviour
     {
         Debug.Log(gameObject.name + " ha colisionado con " + other.name);
         Invoke("Desaparecer", 1.0f);
+        other.gameObject.GetComponent<Rebotar>().Rebotando();
     }
 
     public void Desaparecer()
