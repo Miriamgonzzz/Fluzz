@@ -18,6 +18,7 @@ TagManager:
   - aplastar
   - Enemigo2
   - Detector
+  - Techo
   layers:
   - Default
   - TransparentFX

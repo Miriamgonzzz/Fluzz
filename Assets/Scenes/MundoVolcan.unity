@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 479674708}
   m_Layer: 0
   m_Name: Nubes 1 2024-05-21 17_58_46_0 (1)
-  m_TagString: Suelo
+  m_TagString: Techo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2087,7 +2087,7 @@ GameObject:
   - component: {fileID: 1677791451}
   m_Layer: 0
   m_Name: Nubes 3 2024-05-21 17_58_47_0
-  m_TagString: Suelo
+  m_TagString: Techo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2302,7 +2302,7 @@ GameObject:
   - component: {fileID: 1727112871}
   m_Layer: 0
   m_Name: Nubes 2 2024-05-21 17_58_47_0
-  m_TagString: Suelo
+  m_TagString: Techo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

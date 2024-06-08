@@ -23,9 +23,6 @@ public class MovimientoFenix : MonoBehaviour
 
     public barraVida barraVida;
 
-    private float cameraHalfWidth;
-    private Camera mainCamera;
-
 
     // Start is called before the first frame update
     void Start()
@@ -36,40 +33,13 @@ public class MovimientoFenix : MonoBehaviour
         vida = 100;
         barraVida.InicializarBarraVida(vida);
 
-        mainCamera = Camera.main;
-        cameraHalfWidth = mainCamera.orthographicSize * mainCamera.aspect;
-
-
-
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Obtener la entrada horizontal del jugador
-        float horizontalInput = Input.GetAxis("Horizontal");
-
-        // Calcular el movimiento horizontal
-        Vector2 movement = new Vector2(horizontalInput * velocidad, rigidbody.velocity.y);
-
-        // Aplicar el movimiento al Rigidbody2D
-        rigidbody.velocity = movement;
-
-        // Limitar el movimiento del jugador al borde izquierdo de la cámara
-        Vector3 playerPosition = transform.position;
-        Vector3 cameraPosition = mainCamera.transform.position;
-
-        float leftLimit = cameraPosition.x - cameraHalfWidth;
-
-        if (playerPosition.x < leftLimit)
-        {
-            transform.position = new Vector3(leftLimit, playerPosition.y, playerPosition.z);
-        }
-
-
-
-
+       
         Vector3 velocidadHorizontal = Vector3.zero;
         Vector3 velocidadVertical = Vector3.zero;
         movimiento = Input.GetAxis("Horizontal");

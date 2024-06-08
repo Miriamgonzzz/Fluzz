@@ -37,7 +37,7 @@ public class Bluefire : MonoBehaviour
             transform.Translate(Vector3.left * speed * Time.deltaTime);
 
             // Mover el enemigo en la dirección vertical actual (zigzag)
-            transform.Translate(Vector3.up * verticalSpeed * direction * Time.deltaTime);
+            transform.Translate(Vector3.down * verticalSpeed * direction * Time.deltaTime);
 
             // Si alcanza el límite superior, cambiar la dirección hacia abajo
             if (transform.position.y >= maxY)
@@ -58,10 +58,15 @@ public class Bluefire : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        if (collision.gameObject.CompareTag("Suelo"))
+        if (collision.gameObject.CompareTag("Techo"))
         {
             isOnGround = true;   // Comenzar el movimiento en zigzag
             isMovingUp = false;  // Terminar el movimiento hacia arriba
+        }
+        if (collision.gameObject.CompareTag("Suelo"))
+        {
+            isOnGround = false;   // Comenzar el movimiento en zigzag
+            isMovingUp = true;  // Terminar el movimiento hacia arriba
         }
 
     }
