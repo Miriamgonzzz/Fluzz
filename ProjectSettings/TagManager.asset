@@ -16,6 +16,7 @@ TagManager:
   - PiernaIzquierda
   - Premio
   - aplastar
+  - Enemigo2
   layers:
   - Default
   - TransparentFX
