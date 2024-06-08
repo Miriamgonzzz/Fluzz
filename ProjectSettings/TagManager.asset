@@ -17,6 +17,7 @@ TagManager:
   - Premio
   - aplastar
   - Enemigo2
+  - Detector
   layers:
   - Default
   - TransparentFX

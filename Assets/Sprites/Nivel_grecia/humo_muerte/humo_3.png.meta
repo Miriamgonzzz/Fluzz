@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: b64e11b51cbae0744b9a9c5d7c7b2cdf
+guid: a51fda7dbc355244992c9e6bd75ca480
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1474137110472563286
-    second: movimiento_3_0
+      213: -904660317017652934
+    second: humo_3_0
   - first:
-      213: 8964696803851204524
-    second: movimiento_3_1
+      213: 7076428436052837505
+    second: humo_3_1
   - first:
-      213: 8299286945999777933
-    second: movimiento_3_2
+      213: -2361201630464833929
+    second: humo_3_2
+  - first:
+      213: 7881273268950775786
+    second: humo_3_3
+  - first:
+      213: -9102292357917477231
+    second: humo_3_4
+  - first:
+      213: -702361884641971824
+    second: humo_3_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -52,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -104,13 +113,118 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: movimiento_3_0
+      name: humo_3_0
       rect:
         serializedVersion: 2
-        x: 793
+        x: 1183
+        y: 1011
+        width: 137
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3145c91c300273f0800000000000000
+      internalID: -904660317017652934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humo_3_1
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 663
+        width: 445
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18407698b26843260800000000000000
+      internalID: 7076428436052837505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humo_3_2
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 896
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776021590a35b3fd0800000000000000
+      internalID: -2361201630464833929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humo_3_3
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 769
+        width: 97
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7b7950848ef5d60800000000000000
+      internalID: 7881273268950775786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humo_3_4
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 660
+        width: 97
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196739493592ea180800000000000000
+      internalID: -9102292357917477231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: humo_3_5
+      rect:
+        serializedVersion: 2
+        x: 1348
         y: 546
-        width: 1077
-        height: 653
+        width: 124
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,50 +232,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa5ef0cbb10da8be0800000000000000
-      internalID: -1474137110472563286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: movimiento_3_1
-      rect:
-        serializedVersion: 2
-        x: 1288
-        y: 1198
-        width: 53
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca771a00f30096c70800000000000000
-      internalID: 8964696803851204524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: movimiento_3_2
-      rect:
-        serializedVersion: 2
-        x: 1845
-        y: 510
-        width: 242
-        height: 454
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d807a51818dfc2370800000000000000
-      internalID: 8299286945999777933
+      spriteID: 09134225695b046f0800000000000000
+      internalID: -702361884641971824
       vertices: []
       indices: 
       edges: []
@@ -169,17 +241,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      movimiento_3_0: -1474137110472563286
-      movimiento_3_1: 8964696803851204524
-      movimiento_3_2: 8299286945999777933
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
