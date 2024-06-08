@@ -8,7 +8,7 @@ public class Hidra : MonoBehaviour
     public Collider2D mainCollider; // Referencia al collider principal
     public Collider2D childCollider; // Referencia al collider del objeto hijo
     public Animator animator;
-    [SerializeField] public int vida = 20;
+    [SerializeField] public int vida = 30;
 
     void Start()
     {
@@ -57,6 +57,8 @@ public class Hidra : MonoBehaviour
         animator.SetBool("danio", true);
 
         vida -= 10;
+
+        other.gameObject.GetComponent<Rebotar>().Rebotando();
 
         if (vida <= 0)
         {
