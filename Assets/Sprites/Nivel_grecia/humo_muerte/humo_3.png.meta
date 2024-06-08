@@ -61,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -241,14 +241,20 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      humo_3_0: -904660317017652934
+      humo_3_1: 7076428436052837505
+      humo_3_2: -2361201630464833929
+      humo_3_3: 7881273268950775786
+      humo_3_4: -9102292357917477231
+      humo_3_5: -702361884641971824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
