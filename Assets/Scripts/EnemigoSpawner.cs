@@ -7,8 +7,8 @@ public class EnemigoSpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;       // El prefab del enemigo
     public Transform[] spawnPoints;      // Array de posiciones de spawn
-    public float minSpawnInterval = 5f;  // Intervalo mínimo de spawn en segundos
-    public float maxSpawnInterval = 15f; // Intervalo máximo de spawn en segundos
+    public float minSpawnInterval = 1f;  // Intervalo mínimo de spawn en segundos
+    public float maxSpawnInterval = 5f; // Intervalo máximo de spawn en segundos
     public GameObject[] Enemigos;
     public Transform player;
     public float activationAngle = 45f;
