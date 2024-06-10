@@ -17,6 +17,7 @@ TagManager:
   - Premio
   - aplastar
   - Enemigo2
+  - Roca
   layers:
   - Default
   - TransparentFX
