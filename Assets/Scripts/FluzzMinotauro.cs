@@ -21,6 +21,10 @@ public class FluzzMinotauro : MonoBehaviour
     public barraVida barraVida;
     public Transform puntoDeInicio;
     public float tiempoDeRespawn = 5.0f;
+    public AudioSource audioSource;
+    private bool empujandoRoca = false;
+    private arrastreRoca rocaActual;
+    public AudioSource recibiendoDanio;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +40,7 @@ public class FluzzMinotauro : MonoBehaviour
     {
         animator.SetBool("Caminar", movimientoHorizontal != 0f);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow) && !enElAire)
         {
             animator.SetBool("Saltar", true);
         }
@@ -47,6 +51,15 @@ public class FluzzMinotauro : MonoBehaviour
         }
 
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
+
+        if (empujandoRoca && movimientoHorizontal != 0)
+        {
+            rocaActual?.PlayDraggingSound();
+        }
+        else if (rocaActual != null)
+        {
+            rocaActual.StopDraggingSound();
+        }
     }
 
     private void FixedUpdate()
@@ -78,6 +91,7 @@ public class FluzzMinotauro : MonoBehaviour
     {
         animator.SetBool("Saltar", false);
     }
+
     public void ResetAtaqueAnimation()
     {
         animator.SetBool("Ataque", false);
@@ -87,6 +101,8 @@ public class FluzzMinotauro : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
         enElAire = true;
+        animator.SetBool("Saltar", true);
+        audioSource.Play();
     }
 
     public void ResetToqueAnimation()
@@ -111,16 +127,38 @@ public class FluzzMinotauro : MonoBehaviour
         if (collision.gameObject.CompareTag("Suelo"))
         {
             enElAire = false; // El personaje ya no está en el aire
-            //animator.Play("CaerSuelo");
             animator.SetBool("Saltar", false);
             animator.SetBool("Toque", true);
         }
 
+        if (collision.gameObject.CompareTag("Roca"))
+        {
+            enElAire = false;
+            animator.SetBool("Saltar", false);
+            animator.SetBool("Toque", true);
+            empujandoRoca = true;
+            rocaActual = collision.gameObject.GetComponent<arrastreRoca>();
+        }
+
         if (collision.gameObject.CompareTag("Enemigo"))
         {
+            recibiendoDanio.Play();
             vida -= 1;
             barraVida.CambiarVidaActual(vida);
             Debug.Log("Vida Fluzz: " + vida);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Roca"))
+        {
+            empujandoRoca = false;
+            if (rocaActual != null)
+            {
+                rocaActual.StopDraggingSound();
+                rocaActual = null;
+            }
         }
     }
 

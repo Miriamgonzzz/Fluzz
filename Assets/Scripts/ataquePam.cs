@@ -16,6 +16,7 @@ public class ataquePam : MonoBehaviour
     private bool deteccionFluz = false;
     public GameObject disparoCorchea;
     public Transform PuntoDeDisparo;
+    public AudioSource audiosource;
 
     void Start()
     {
@@ -78,6 +79,7 @@ public class ataquePam : MonoBehaviour
 
         var corchea = Instantiate(disparoCorchea, PuntoDeDisparo.position, Quaternion.identity);
         corchea.transform.SetParent(null);
+        audiosource.Play();
 
 
         // Calcula la dirección desde el punto de disparo hasta el objetivo
