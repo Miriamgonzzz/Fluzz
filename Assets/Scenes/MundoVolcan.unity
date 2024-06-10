@@ -1049,8 +1049,8 @@ Transform:
   m_GameObject: {fileID: 856383222}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.2, y: -0.79, z: 10.007195}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 30.2, y: -1.5, z: 10.007195}
+  m_LocalScale: {x: 4.980646, y: 4.980646, z: 4.980646}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 452773333}
@@ -1067,7 +1067,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3803dcbc0e9977443b0b1b2c5d5d6a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 9097433569698282442, guid: 80cbae9347c2a59489de524821f3e164, type: 3}
   spawnPoints:
   - {fileID: 856383223}
   minSpawnInterval: 1
@@ -1078,6 +1077,7 @@ MonoBehaviour:
   - {fileID: 7165989424052956814, guid: a273d2dd923003943acc2e2aeafeb617, type: 3}
   player: {fileID: 936349943}
   activationAngle: 45
+  spawnAreaHeight: 8
 --- !u!1 &936349940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,6 +1286,10 @@ MonoBehaviour:
   colorReposo: {r: 0, g: 0, b: 0, a: 0}
   colorDano: {r: 0, g: 0, b: 0, a: 0}
   barraVida: {fileID: 0}
+  minX: 10
+  maxX: 10
+  minY: 10
+  maxY: 10
 --- !u!1 &956103476
 GameObject:
   m_ObjectHideFlags: 0

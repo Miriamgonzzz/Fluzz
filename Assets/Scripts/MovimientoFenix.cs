@@ -22,6 +22,8 @@ public class MovimientoFenix : MonoBehaviour
     SpriteRenderer spriteRenderer;
 
     public barraVida barraVida;
+    private Camera mainCamera;
+    private float minX, maxX, minY, maxY;
 
 
     // Start is called before the first frame update
@@ -31,8 +33,9 @@ public class MovimientoFenix : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         vida = 100;
-        barraVida.InicializarBarraVida(vida);
+        //barraVida.InicializarBarraVida(vida);
 
+        mainCamera = Camera.main;
 
     }
 
@@ -43,6 +46,24 @@ public class MovimientoFenix : MonoBehaviour
         Vector3 velocidadHorizontal = Vector3.zero;
         Vector3 velocidadVertical = Vector3.zero;
         movimiento = Input.GetAxis("Horizontal");
+
+        float vertExtent = mainCamera.orthographicSize;
+        float horizExtent = vertExtent * Screen.width / Screen.height;
+
+        Vector3 cameraPosition = mainCamera.transform.position;
+        minX = cameraPosition.x - horizExtent;
+        maxX = cameraPosition.x + horizExtent;
+        minY = cameraPosition.y - vertExtent;
+        maxY = cameraPosition.y + vertExtent;
+        // Obtener la posición actual del jugador
+        Vector3 playerPosition = transform.position;
+
+        // Clampeo de la posición del jugador para mantenerlo dentro de los límites de la cámara
+        playerPosition.x = Mathf.Clamp(playerPosition.x, minX, maxX);
+        playerPosition.y = Mathf.Clamp(playerPosition.y, minY, maxY);
+
+        // Asignar la posición clampeada de nuevo al transform del jugador
+        transform.position = playerPosition;
 
         if (vida <= 1)
         {
@@ -189,6 +210,16 @@ public class MovimientoFenix : MonoBehaviour
     public void muerte()
     {
         SceneManager.LoadScene("FinalMundoAcuatico"); // Carga la escena con el nombre especificado
+    }
+
+    void OnDrawGizmos()
+    {
+        // Dibujar los límites de la cámara para visualización
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(new Vector3(minX, minY, 0), new Vector3(maxX, minY, 0));
+        Gizmos.DrawLine(new Vector3(maxX, minY, 0), new Vector3(maxX, maxY, 0));
+        Gizmos.DrawLine(new Vector3(maxX, maxY, 0), new Vector3(minX, maxY, 0));
+        Gizmos.DrawLine(new Vector3(minX, maxY, 0), new Vector3(minX, minY, 0));
     }
 
 }
