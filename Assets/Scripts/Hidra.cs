@@ -8,7 +8,8 @@ public class Hidra : MonoBehaviour
     public Collider2D mainCollider; // Referencia al collider principal
     public Collider2D childCollider; // Referencia al collider del objeto hijo
     public Animator animator;
-    [SerializeField] public int vida = 30;
+    [SerializeField] public int vida = 50;
+    public AudioSource audioSource;
 
     void Start()
     {
@@ -55,7 +56,7 @@ public class Hidra : MonoBehaviour
         Debug.Log(gameObject.name + " ha colisionado con " + other.name);
 
         animator.SetBool("danio", true);
-
+        audioSource.Play();
         vida -= 10;
 
         other.gameObject.GetComponent<Rebotar>().Rebotando();

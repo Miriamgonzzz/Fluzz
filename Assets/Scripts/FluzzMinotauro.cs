@@ -21,6 +21,7 @@ public class FluzzMinotauro : MonoBehaviour
     public barraVida barraVida;
     public Transform puntoDeInicio;
     public float tiempoDeRespawn = 5.0f;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,7 @@ public class FluzzMinotauro : MonoBehaviour
     {
         animator.SetBool("Caminar", movimientoHorizontal != 0f);
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.UpArrow) && !enElAire)
         {
             animator.SetBool("Saltar", true);
         }
@@ -87,6 +88,8 @@ public class FluzzMinotauro : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
         enElAire = true;
+        animator.SetBool("Saltar", true);
+        audioSource.Play();
     }
 
     public void ResetToqueAnimation()
