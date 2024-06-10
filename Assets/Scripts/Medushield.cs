@@ -11,6 +11,7 @@ public class Medushield : MonoBehaviour
     public float speed = 2f; // Velocidad de movimiento del enemigo
     private bool movingRight = true; // Indica si el enemigo se está moviendo hacia la derecha
     Animator animator;
+    public AudioSource audiosource;
 
     // Start is called before the first frame update
     void Start()
@@ -57,11 +58,12 @@ public class Medushield : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log(gameObject.name + " ha colisionado con " + other.name);
+        audiosource.Play();
         Invoke("Desaparecer", 1.0f);
         other.gameObject.GetComponent<Rebotar>().Rebotando();
-        
-        
-        
+
+
+
     }
 
     public void Desaparecer()

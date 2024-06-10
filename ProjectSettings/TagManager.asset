@@ -19,6 +19,7 @@ TagManager:
   - Enemigo2
   - Detector
   - Techo
+  - Roca
   layers:
   - Default
   - TransparentFX

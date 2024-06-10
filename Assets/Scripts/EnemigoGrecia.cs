@@ -12,6 +12,7 @@ public class EnemigoGrecia : MonoBehaviour
     public float amplitude = 1.0f;  // Amplitud del movimiento (cuánto se mueve hacia arriba y hacia abajo)
     public float frequency = 1.0f;  // Frecuencia del movimiento (qué tan rápido se mueve hacia arriba y hacia abajo)
     private Vector3 startPosition;
+    public AudioSource audiosource;
 
     void Start()
     {
@@ -45,6 +46,7 @@ public class EnemigoGrecia : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log(gameObject.name + " ha colisionado con " + other.name);
+        audiosource.Play();
         Invoke("Desaparecer", 1.0f);
         other.gameObject.GetComponent<Rebotar>().Rebotando();
     }
