@@ -12,6 +12,7 @@ public class Daluma_bab : MonoBehaviour
     public Transform respawnPoint;
     private bool movingRight = true; // Indica si el enemigo se está moviendo hacia la derecha
     Animator animator;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +60,7 @@ public class Daluma_bab : MonoBehaviour
     {
         if (other.CompareTag("Fluzz"))
         {
+            audioSource.Play();
             other.transform.position = respawnPoint.position;
         }
     }
