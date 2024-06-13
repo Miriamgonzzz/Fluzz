@@ -21,6 +21,7 @@ public class pezGlobo : MonoBehaviour
     public bool perseguir;
     public float distanciaFluzz;
     private float distanciaFluzzAbsoluta;
+    public AudioSource audioSource;
 
     float distanciaCambio = 0.2f;
     byte siguientePosicion = 0;
@@ -106,6 +107,7 @@ public class pezGlobo : MonoBehaviour
 
                 colliderEnemigo.enabled = false;
                 animator.SetBool("muerte", true);
+                audioSource.Play();
 
             }
             StopAllCoroutines();
