@@ -12,6 +12,7 @@ public class Medushield : MonoBehaviour
     private bool movingRight = true; // Indica si el enemigo se está moviendo hacia la derecha
     Animator animator;
     public AudioSource audiosource;
+    private EdgeCollider2D edgeCollider;
 
     // Start is called before the first frame update
     void Start()
@@ -61,6 +62,7 @@ public class Medushield : MonoBehaviour
         audiosource.Play();
         Invoke("Desaparecer", 1.0f);
         other.gameObject.GetComponent<Rebotar>().Rebotando();
+        edgeCollider.enabled = false;
 
 
 
@@ -69,6 +71,7 @@ public class Medushield : MonoBehaviour
     public void Desaparecer()
     {
         Debug.Log(gameObject.name + " desaparece");
+        animator.SetBool("muerteEnemigoGrecia", true);
         animator.SetTrigger("Die");
         Destroy(gameObject, 0.2f);
     }

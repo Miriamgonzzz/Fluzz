@@ -164,6 +164,7 @@ MonoBehaviour:
   leftBoundary: {fileID: 4532010530132833620}
   rightBoundary: {fileID: 821160031727146028}
   speed: 2
+  audiosource: {fileID: 0}
 --- !u!95 &5555881723607206525
 Animator:
   serializedVersion: 7
