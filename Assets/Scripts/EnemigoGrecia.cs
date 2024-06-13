@@ -13,6 +13,7 @@ public class EnemigoGrecia : MonoBehaviour
     public float frequency = 1.0f;  // Frecuencia del movimiento (qué tan rápido se mueve hacia arriba y hacia abajo)
     private Vector3 startPosition;
     public AudioSource audiosource;
+    private EdgeCollider2D edgeCollider;
 
     void Start()
     {
@@ -49,11 +50,13 @@ public class EnemigoGrecia : MonoBehaviour
         audiosource.Play();
         Invoke("Desaparecer", 1.0f);
         other.gameObject.GetComponent<Rebotar>().Rebotando();
+        edgeCollider.enabled = false;
     }
 
     public void Desaparecer()
     {
         Debug.Log(gameObject.name + " desaparece");
+        animator.SetBool("muerteEnemigoGrecia", true);
         animator.SetTrigger("Die");
         Destroy(gameObject, 0.5f);
     }
