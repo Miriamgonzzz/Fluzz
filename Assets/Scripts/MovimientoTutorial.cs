@@ -20,6 +20,8 @@ public class MovimientoTutorial : MonoBehaviour
     private bool animacionCaerSueloReproducida = false;
     private GameObject objetoConTagPegar;
     private BoxCollider2D colliderPegar;
+    public AudioSource audioSource;
+    public AudioSource pegar;
 
 
 
@@ -63,9 +65,10 @@ public class MovimientoTutorial : MonoBehaviour
             //iniciadoSalto = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && !enElAire)
         {
             animator.SetBool("Ataque", true);
+            pegar.Play();
         }
 
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
@@ -108,6 +111,7 @@ public class MovimientoTutorial : MonoBehaviour
     public void Saltar()
     {
         rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
+        audioSource.Play();
         enElAire = true;
         //iniciadoSalto = false;
         animacionCaerSueloReproducida = true;
