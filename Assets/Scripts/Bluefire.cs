@@ -13,11 +13,21 @@ public class Bluefire : MonoBehaviour
     private bool isOnGround = false;     // Indicador de si el enemigo está en el suelo
     private bool isMovingUp = true;     // Indicador de si el enemigo está en el estado inicial de moverse hacia arriba
 
+    [SerializeField] public int vida = 10;
+    private BoxCollider2D colliderEnemigo;
+    public Animator animator;
+    public Color colorReposo;
+    public Color colorDano;
+    SpriteRenderer spriteRenderer;
+
     // Start is called before the first frame update
     void Start()
     {
         // Inicialmente, el enemigo se mueve hacia arriba
         transform.Translate(Vector3.up * upwardSpeed * Time.deltaTime);
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        colliderEnemigo = GetComponent<BoxCollider2D>();
 
     }
 
@@ -69,5 +79,63 @@ public class Bluefire : MonoBehaviour
             isMovingUp = true;  // Terminar el movimiento hacia arriba
         }
 
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+
+            vida -= 10;
+
+            if (vida <= 0)
+            {
+
+                colliderEnemigo.enabled = false;
+                animator.SetBool("muerte", true);
+
+            }
+            StopAllCoroutines();
+            StartCoroutine(Dano());
+
+        }
+
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.tag == "Bola")
+        {
+
+            vida -= 10;
+            transform.localScale = new Vector3(-10, 1, 1);
+            if (vida <= 0)
+            {
+
+                colliderEnemigo.enabled = false;
+                animator.SetBool("muerte", true);
+
+            }
+            StopAllCoroutines();
+            StartCoroutine(Dano());
+        }
+
+
+    }
+
+    private void destruirEnemigo()
+    {
+        Destroy(gameObject);
+    }
+
+
+    IEnumerator Dano()
+    {
+
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = colorReposo;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = colorDano;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = colorReposo;
+    }
+
 }
