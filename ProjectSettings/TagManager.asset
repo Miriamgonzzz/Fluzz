@@ -17,6 +17,8 @@ TagManager:
   - Premio
   - aplastar
   - Enemigo2
+  - Detector
+  - Techo
   - Roca
   layers:
   - Default
