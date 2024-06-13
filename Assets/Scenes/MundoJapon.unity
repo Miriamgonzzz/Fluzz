@@ -120,6 +120,68 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &2949554
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1128153559}
+    m_Modifications:
+    - target: {fileID: 2793847839640376341, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_Name
+      value: Cielo azul claro (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 161.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -68.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.8773351
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+--- !u!4 &2949555 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+  m_PrefabInstance: {fileID: 2949554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &44516980
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +370,7 @@ GameObject:
   - component: {fileID: 114420974}
   - component: {fileID: 114420973}
   - component: {fileID: 114420975}
+  - component: {fileID: 114420976}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0
   m_TagString: Suelo
@@ -413,7 +476,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -428,6 +491,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 14.582308, y: 2.837494}
   m_EdgeRadius: 0
+--- !u!251 &114420976
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114420972}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &128568331
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,6 +521,7 @@ GameObject:
   - component: {fileID: 128568334}
   - component: {fileID: 128568333}
   - component: {fileID: 128568332}
+  - component: {fileID: 128568335}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (3)
   m_TagString: Suelo
@@ -477,7 +560,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -559,6 +642,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1042250088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &128568335
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128568331}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &146680103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,6 +1181,7 @@ GameObject:
   - component: {fileID: 207100644}
   - component: {fileID: 207100643}
   - component: {fileID: 207100642}
+  - component: {fileID: 207100645}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (5)
   m_TagString: Suelo
@@ -1117,7 +1220,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -1199,6 +1302,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1042250088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &207100645
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207100641}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &212689929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1936,6 +2058,7 @@ GameObject:
   - component: {fileID: 326086684}
   - component: {fileID: 326086683}
   - component: {fileID: 326086682}
+  - component: {fileID: 326086685}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (1)
   m_TagString: Suelo
@@ -1974,7 +2097,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -2056,6 +2179,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1042250088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &326086685
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326086681}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &342195195
 GameObject:
   m_ObjectHideFlags: 0
@@ -2569,6 +2711,7 @@ GameObject:
   - component: {fileID: 392960816}
   - component: {fileID: 392960818}
   - component: {fileID: 392960817}
+  - component: {fileID: 392960819}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (3)
   m_TagString: Suelo
@@ -2622,7 +2765,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -2689,6 +2832,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &392960819
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392960815}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &403471201
 GameObject:
   m_ObjectHideFlags: 0
@@ -3576,6 +3738,7 @@ GameObject:
   - component: {fileID: 498749428}
   - component: {fileID: 498749427}
   - component: {fileID: 498749426}
+  - component: {fileID: 498749429}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (2)
   m_TagString: Suelo
@@ -3614,7 +3777,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -3696,6 +3859,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1042250088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &498749429
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498749425}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &517367934
 GameObject:
   m_ObjectHideFlags: 0
@@ -3857,7 +4039,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 904236f6d56c62d449a0a0e3f355866b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5060,6 +5242,7 @@ GameObject:
   - component: {fileID: 724826598}
   - component: {fileID: 724826600}
   - component: {fileID: 724826599}
+  - component: {fileID: 724826601}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (8)
   m_TagString: Suelo
@@ -5113,7 +5296,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -5180,6 +5363,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &724826601
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724826597}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &741714976
 GameObject:
   m_ObjectHideFlags: 0
@@ -6007,6 +6209,231 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &845062853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 619201438329329042, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075207001007311365, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149552578117156924, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_Name
+      value: Suelo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233706916879545963, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 238.103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233706916879545963, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.888
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.0594
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.0594
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.0594
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -269
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.98842
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -54.146
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350240863995566485, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1442979489381359342, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 210.779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1442979489381359342, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.887
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514593402118649524, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893641706204778234, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2258427911304864509, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414264601127490910, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 46.876
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414264601127490910, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.889
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627788048076522583, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644485504516890542, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679888912023510199, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092200795921266989, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103563287145110022, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 128.818
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103563287145110022, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 4468952421660115115, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750713325682573577, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.556
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750713325682573577, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 4882642221020872555, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068403093363688896, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5084182295900514452, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 183.457
+      objectReference: {fileID: 0}
+    - target: {fileID: 5084182295900514452, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.888
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758638127398025134, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6649577827188109144, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816199438608757826, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186343985206526971, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 74.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186343985206526971, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.891
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186343985206526971, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257590813290230815, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 101.508
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257590813290230815, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281181998278311890, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7838356004570275934, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8129022964514895505, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234004959579281501, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8239083059827451831, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_TagString
+      value: Suelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795368587959360623, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 156.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795368587959360623, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.889
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0bc1ad245ee7974d97b1ae0c1854dc9, type: 3}
 --- !u!1 &868029377
 GameObject:
   m_ObjectHideFlags: 0
@@ -6446,6 +6873,7 @@ GameObject:
   - component: {fileID: 979247902}
   - component: {fileID: 979247901}
   - component: {fileID: 979247900}
+  - component: {fileID: 979247903}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (4)
   m_TagString: Suelo
@@ -6484,7 +6912,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -6566,6 +6994,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1042250088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &979247903
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979247899}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &996413221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6873,6 +7320,7 @@ GameObject:
   - component: {fileID: 1091257110}
   - component: {fileID: 1091257112}
   - component: {fileID: 1091257111}
+  - component: {fileID: 1091257113}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (9)
   m_TagString: Suelo
@@ -6926,7 +7374,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -6993,6 +7441,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1091257113
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091257109}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1112394504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7097,6 +7564,8 @@ Transform:
   - {fileID: 2050349521}
   - {fileID: 236299940}
   - {fileID: 272820413}
+  - {fileID: 1621873108}
+  - {fileID: 2949555}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1135803012
@@ -7110,6 +7579,7 @@ GameObject:
   - component: {fileID: 1135803013}
   - component: {fileID: 1135803015}
   - component: {fileID: 1135803014}
+  - component: {fileID: 1135803016}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (11)
   m_TagString: Suelo
@@ -7163,7 +7633,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -7230,6 +7700,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1135803016
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135803012}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1166928863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7841,6 +8330,7 @@ GameObject:
   - component: {fileID: 1235496065}
   - component: {fileID: 1235496067}
   - component: {fileID: 1235496066}
+  - component: {fileID: 1235496068}
   m_Layer: 0
   m_Name: Tejado3 2024-05-21 17_56_29_0
   m_TagString: Suelo
@@ -7894,7 +8384,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.09822631, y: -0.19645292}
@@ -7961,6 +8451,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1235496068
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235496064}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1236719574
 GameObject:
   m_ObjectHideFlags: 0
@@ -8675,6 +9184,7 @@ GameObject:
   - component: {fileID: 1400389622}
   - component: {fileID: 1400389624}
   - component: {fileID: 1400389623}
+  - component: {fileID: 1400389625}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (7)
   m_TagString: Suelo
@@ -8728,7 +9238,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -8795,6 +9305,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1400389625
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400389621}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1417692575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8868,6 +9397,7 @@ GameObject:
   - component: {fileID: 1417758232}
   - component: {fileID: 1417758234}
   - component: {fileID: 1417758233}
+  - component: {fileID: 1417758235}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (1)
   m_TagString: Suelo
@@ -8921,7 +9451,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -8988,6 +9518,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1417758235
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417758231}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1447581949
 GameObject:
   m_ObjectHideFlags: 0
@@ -9269,6 +9818,7 @@ GameObject:
   - component: {fileID: 1454636295}
   - component: {fileID: 1454636297}
   - component: {fileID: 1454636296}
+  - component: {fileID: 1454636298}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (10)
   m_TagString: Suelo
@@ -9322,7 +9872,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -9389,6 +9939,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1454636298
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454636294}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1462343105
 GameObject:
   m_ObjectHideFlags: 0
@@ -9399,10 +9968,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1462343108}
   - component: {fileID: 1462343107}
-  - component: {fileID: 1462343106}
   - component: {fileID: 1462343109}
   - component: {fileID: 1462343110}
   - component: {fileID: 1462343111}
+  - component: {fileID: 1462343113}
+  - component: {fileID: 1462343114}
   m_Layer: 0
   m_Name: Kitsune_movimiento_1
   m_TagString: Fluzz
@@ -9410,22 +9980,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1462343106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462343105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b45ce739c7556c549ad65770a1f3b4f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidadMovimiento: 400
-  suavizador: 0.2
-  fuerzaSalto: 8.5
-  velocidadYDuranteSalto: 11
 --- !u!212 &1462343107
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9589,6 +10143,119 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &1462343113
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462343105}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0b242e1a1327976479b94bbfeb8aeff2, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.4
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0.1
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1462343114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462343105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2a6c840d38da24e956cd0229579f55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadMovimiento: 400
+  suavizador: 0.2
+  fuerzaSalto: 8.5
+  velocidadYDuranteSalto: 11
+  audioSource: {fileID: 1462343113}
 --- !u!1 &1498959316
 GameObject:
   m_ObjectHideFlags: 0
@@ -9634,6 +10301,7 @@ GameObject:
   - component: {fileID: 1503875493}
   - component: {fileID: 1503875495}
   - component: {fileID: 1503875494}
+  - component: {fileID: 1503875496}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (2)
   m_TagString: Suelo
@@ -9687,7 +10355,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -9754,6 +10422,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1503875496
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503875492}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1531690792
 GameObject:
   m_ObjectHideFlags: 0
@@ -10135,6 +10822,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2731443080480502319, guid: fdacf002d5b161343a1ce488d0562e58, type: 3}
   m_PrefabInstance: {fileID: 1618479492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1621873107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1128153559}
+    m_Modifications:
+    - target: {fileID: 2793847839640376341, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_Name
+      value: Cielo azul claro (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 159.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -61.89364
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.8773351
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+--- !u!4 &1621873108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7972166690147845807, guid: 40ab5bf5c43dc30409d3d727657e435e, type: 3}
+  m_PrefabInstance: {fileID: 1621873107}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1624802652
 GameObject:
@@ -10525,6 +11274,7 @@ GameObject:
   - component: {fileID: 1748621680}
   - component: {fileID: 1748621682}
   - component: {fileID: 1748621681}
+  - component: {fileID: 1748621683}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (4)
   m_TagString: Suelo
@@ -10578,7 +11328,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -10645,6 +11395,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1748621683
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748621679}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1773432301
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10873,6 +11642,7 @@ GameObject:
   - component: {fileID: 1829748642}
   - component: {fileID: 1829748644}
   - component: {fileID: 1829748643}
+  - component: {fileID: 1829748645}
   m_Layer: 0
   m_Name: Tejado3 2024-05-21 17_56_29_0
   m_TagString: Suelo
@@ -10926,7 +11696,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.09822631, y: -0.19645292}
@@ -10993,6 +11763,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1829748645
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829748641}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1840832969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11393,6 +12182,7 @@ GameObject:
   - component: {fileID: 1869908899}
   - component: {fileID: 1869908901}
   - component: {fileID: 1869908900}
+  - component: {fileID: 1869908902}
   m_Layer: 0
   m_Name: Tejado3 2024-05-21 17_56_29_0 (1)
   m_TagString: Suelo
@@ -11446,7 +12236,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.09822631, y: -0.19645292}
@@ -11513,6 +12303,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1869908902
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869908898}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1877661920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11764,6 +12573,7 @@ GameObject:
   - component: {fileID: 1918177098}
   - component: {fileID: 1918177100}
   - component: {fileID: 1918177099}
+  - component: {fileID: 1918177101}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0
   m_TagString: Suelo
@@ -11817,7 +12627,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -11884,6 +12694,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1918177101
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918177097}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1942693199
 GameObject:
   m_ObjectHideFlags: 0
@@ -11895,6 +12724,7 @@ GameObject:
   - component: {fileID: 1942693200}
   - component: {fileID: 1942693202}
   - component: {fileID: 1942693201}
+  - component: {fileID: 1942693203}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (6)
   m_TagString: Suelo
@@ -11948,7 +12778,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -12015,6 +12845,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1942693203
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942693199}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1950630185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12150,6 +12999,7 @@ GameObject:
   - component: {fileID: 1982577508}
   - component: {fileID: 1982577510}
   - component: {fileID: 1982577509}
+  - component: {fileID: 1982577511}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (10)
   m_TagString: Suelo
@@ -12203,7 +13053,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -12270,6 +13120,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &1982577511
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982577507}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1986258346
 GameObject:
   m_ObjectHideFlags: 0
@@ -13391,6 +14260,7 @@ GameObject:
   - component: {fileID: 2120177922}
   - component: {fileID: 2120177924}
   - component: {fileID: 2120177923}
+  - component: {fileID: 2120177925}
   m_Layer: 0
   m_Name: Tejado rosa 2024-05-21 17_56_28_0 (5)
   m_TagString: Suelo
@@ -13444,7 +14314,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.044068336, y: -0.7925482}
@@ -13511,6 +14381,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &2120177925
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120177921}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &2144466440
 GameObject:
   m_ObjectHideFlags: 0
@@ -13996,6 +14885,7 @@ SceneRoots:
   - {fileID: 170039649}
   - {fileID: 1462343108}
   - {fileID: 533418589689896916}
+  - {fileID: 845062853}
   - {fileID: 1864226184}
   - {fileID: 1531690793}
   - {fileID: 275405214}
