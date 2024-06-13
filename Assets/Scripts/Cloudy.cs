@@ -36,6 +36,7 @@ public class Cloudy : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Player"))
         {
+            
 
             vida -= 10;
 

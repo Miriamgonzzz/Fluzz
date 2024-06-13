@@ -14,16 +14,15 @@ public class Watshark : MonoBehaviour
     SpriteRenderer spriteRenderer;
     void Start()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        colliderEnemigo = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.left * speed * Time.deltaTime);
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
-        colliderEnemigo = GetComponent<BoxCollider2D>();
 
     }
     private void OnCollisionEnter2D(Collision2D collision)

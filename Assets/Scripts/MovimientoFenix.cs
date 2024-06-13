@@ -33,7 +33,7 @@ public class MovimientoFenix : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         vida = 100;
-        //barraVida.InicializarBarraVida(vida);
+        barraVida.InicializarBarraVida(vida);
 
         mainCamera = Camera.main;
 

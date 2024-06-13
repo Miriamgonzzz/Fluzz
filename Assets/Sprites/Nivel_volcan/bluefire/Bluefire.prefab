@@ -128,7 +128,7 @@ MonoBehaviour:
   minY: -7
   maxY: 20
   vida: 10
-  animator: {fileID: 2512672029684258659}
+  animator: {fileID: 0}
   colorReposo: {r: 0, g: 0, b: 0, a: 0}
   colorDano: {r: 0, g: 0, b: 0, a: 0}
 --- !u!61 &1262508312318263554
