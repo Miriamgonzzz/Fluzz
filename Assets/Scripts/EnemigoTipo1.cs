@@ -23,6 +23,7 @@ public class EnemigoTipo1 : MonoBehaviour
     public bool perseguir;
     public float distanciaFluzz;
     private float distanciaFluzzAbsoluta;
+    public AudioSource audiosource;
 
     float distanciaCambio = 0.2f;
     byte siguientePosicion = 0;
@@ -104,6 +105,7 @@ public class EnemigoTipo1 : MonoBehaviour
 
                 colliderEnemigo.enabled = false;
                 animator.SetBool("muerte", true);
+                audiosource.Play();
                 
                     
              }
@@ -128,9 +130,10 @@ public class EnemigoTipo1 : MonoBehaviour
            vida -= 10;
             colliderEnemigo.enabled = false;
             animator.SetBool("muerte", true);
-    
-       
-         StopAllCoroutines();
+            audiosource.Play();
+
+
+            StopAllCoroutines();
         StartCoroutine(Dano());
 
       }

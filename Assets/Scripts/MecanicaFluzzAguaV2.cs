@@ -20,6 +20,8 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
     public Color colorReposo;
     public Color colorDano;
     SpriteRenderer spriteRenderer;
+    public AudioSource audioSource;
+    public AudioSource sonidoCuracion;
 
     public barraVida barraVida;
 
@@ -108,6 +110,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
 
         var bala = Instantiate(disparoTinta, PuntoDeDisparo.position,Quaternion.identity);
         bala.transform.SetParent(null);
+        audioSource.Play();
         if (!orientacion)
         {
             bala.GetComponent<Rigidbody2D>().velocity = Vector2.right * velocidadDisparo;
@@ -136,7 +139,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
 
        
     if (collision.gameObject.CompareTag("Enemigo")){
-            vida -= 20;
+            vida -= 10;
             barraVida.CambiarVidaActual(vida);
 
            
@@ -149,6 +152,8 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
 
     
  if (collision.gameObject.CompareTag("Premio")){
+
+            sonidoCuracion.Play();
             vida += 100;
             if(vida > 100){
                 vida=100;
@@ -181,7 +186,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
 
     public void muerte()
     {
-        SceneManager.LoadScene("FinalMundoAcuatico"); // Carga la escena con el nombre especificado
+        SceneManager.LoadScene("MundoAcuaticoOK"); 
     }
 
  
