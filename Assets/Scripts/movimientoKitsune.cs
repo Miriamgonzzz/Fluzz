@@ -1,9 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovimientoTutorial : MonoBehaviour
+public class movimientoKitsune : MonoBehaviour
 {
     private Rigidbody2D rb;
     Animator animator;
@@ -21,7 +20,6 @@ public class MovimientoTutorial : MonoBehaviour
     private GameObject objetoConTagPegar;
     private BoxCollider2D colliderPegar;
     public AudioSource audioSource;
-    public AudioSource pegar;
 
 
 
@@ -48,13 +46,13 @@ public class MovimientoTutorial : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
         animator.SetBool("Caminar", movimientoHorizontal != 0f);
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -65,26 +63,20 @@ public class MovimientoTutorial : MonoBehaviour
             //iniciadoSalto = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && !enElAire)
-        {
-            animator.SetBool("Ataque", true);
-            pegar.Play();
-        }
-
         movimientoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMovimiento;
     }
 
     private void FixedUpdate()
     {
-        Mover(movimientoHorizontal * Time.fixedDeltaTime); 
+        Mover(movimientoHorizontal * Time.fixedDeltaTime);
     }
 
-    private void Mover( float mover)
+    private void Mover(float mover)
     {
-        Vector3 velocidad = new Vector2(mover,rb.velocity.y);
-        rb.velocity = Vector3.SmoothDamp(rb.velocity,velocidad, ref velocidad, suavizador);
+        Vector3 velocidad = new Vector2(mover, rb.velocity.y);
+        rb.velocity = Vector3.SmoothDamp(rb.velocity, velocidad, ref velocidad, suavizador);
 
-        if((mover > 0 && !mirada) || (mover < 0 && mirada))
+        if ((mover > 0 && !mirada) || (mover < 0 && mirada))
         {
             Girar();
         }
@@ -103,26 +95,19 @@ public class MovimientoTutorial : MonoBehaviour
     {
         animator.SetBool("Saltar", false);
     }
-    public void ResetAtaqueAnimation()
-    {
-        animator.SetBool("Ataque", false);
-    }
 
     public void Saltar()
     {
         rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
         audioSource.Play();
         enElAire = true;
-        //iniciadoSalto = false;
-        animacionCaerSueloReproducida = true;
     }
 
     public void ResetToqueAnimation()
     {
         Debug.Log("Toque");
         animator.SetBool("Toque", false);
-        animacionCaerSueloReproducida = false;
-       
+
     }
     public void ActivarCollider()
     {
@@ -137,9 +122,9 @@ public class MovimientoTutorial : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Suelo") && animacionCaerSueloReproducida)
+        if (collision.gameObject.CompareTag("Suelo"))
         {
-            
+
             enElAire = false; // El personaje ya no está en el aire
             //animator.Play("CaerSuelo");
             animator.SetBool("Saltar", false);
@@ -147,5 +132,4 @@ public class MovimientoTutorial : MonoBehaviour
         }
 
     }
-
 }

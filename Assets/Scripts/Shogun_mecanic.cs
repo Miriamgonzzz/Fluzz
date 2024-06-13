@@ -16,6 +16,7 @@ public class Shogun_mecanic : MonoBehaviour
     private CircleCollider2D boxCollider;
     private bool playerInRange = false;
     private GameObject player;
+    public AudioSource audioSource;
 
     void Start()
     {
@@ -76,6 +77,7 @@ public class Shogun_mecanic : MonoBehaviour
                     if (playerInRange && player != null)
                     {
                         Debug.Log("Player detected! Respawning...");
+                        audioSource. Play();
                         player.transform.position = respawnPoint.position;
                     }
 

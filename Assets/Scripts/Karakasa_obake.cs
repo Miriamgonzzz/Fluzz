@@ -14,6 +14,7 @@ public class Karakasa_obake : MonoBehaviour
     private bool movingUp = true; // Indica si el enemigo se está moviendo hacia arriba
     Animator animator;
     private BoxCollider2D colliderPegar;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +51,7 @@ public class Karakasa_obake : MonoBehaviour
     {
         if (other.CompareTag("Fluzz"))
         {
+            audioSource.Play();
             other.transform.position = respawnPoint.position;
         }
 

@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MundoAcuaticoOK.unity
     guid: 05d3937b4ef40224aac741bddeaaa5ac
+  - enabled: 1
+    path: Assets/Scenes/MundoGrecia.unity
+    guid: be904ab27f1f16845b16cff5536c5ca6
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
