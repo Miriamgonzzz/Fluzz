@@ -20,7 +20,7 @@ public class EnemigoSetiap : MonoBehaviour
     private bool yendoHaciaPuntoFinal = true;
     public GameObject[] prefabs; // Array que contiene los prefabs a instanciar
     public int cantidadMaximaInstancias = 5; // Cantidad máxima de instancias
-
+    public GameObject puertaMundoCentral;
 
     // Start is called before the first frame update
     void Start()
@@ -152,6 +152,9 @@ public class EnemigoSetiap : MonoBehaviour
 
      public void victoria()
     {
-        SceneManager.LoadScene("EstacionCentral"); // Carga la escena con el nombre especificado
+
+        puertaMundoCentral.SetActive(true);
+
+
     }
 }
