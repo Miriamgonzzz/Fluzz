@@ -123,8 +123,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  verticalSpeed: 3
+  upwardSpeed: 2
   minY: -7
   maxY: 20
+  vida: 10
+  animator: {fileID: 2512672029684258659}
+  colorReposo: {r: 0, g: 0, b: 0, a: 0}
+  colorDano: {r: 0, g: 0, b: 0, a: 0}
 --- !u!61 &1262508312318263554
 BoxCollider2D:
   m_ObjectHideFlags: 0

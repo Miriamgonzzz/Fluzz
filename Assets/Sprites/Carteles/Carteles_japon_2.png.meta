@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Carteles_japon_2_0: 5021155241070906600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
