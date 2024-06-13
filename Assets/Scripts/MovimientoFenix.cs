@@ -168,40 +168,7 @@ public class MovimientoFenix : MonoBehaviour
 
 
             Debug.Log("Vida Fluzz: " + vida);
-
-            StopAllCoroutines();
-            StartCoroutine(Dano());
         }
-
-
-        if (collision.gameObject.CompareTag("Premio"))
-        {
-            vida += 100;
-            if (vida > 100)
-            {
-                vida = 100;
-            }
-            barraVida.CambiarVidaActual(vida);
-
-
-
-            Debug.Log("Vida Fluzz: " + vida);
-
-        }
-
-    }
-
-    IEnumerator Dano()
-    {
-
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = colorReposo;
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = colorDano;
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = colorReposo;
-
-
 
 
     }
@@ -209,7 +176,7 @@ public class MovimientoFenix : MonoBehaviour
 
     public void muerte()
     {
-        SceneManager.LoadScene("FinalMundoAcuatico"); // Carga la escena con el nombre especificado
+        SceneManager.LoadScene("MundoVolcan"); // Carga la escena con el nombre especificado
     }
 
     void OnDrawGizmos()

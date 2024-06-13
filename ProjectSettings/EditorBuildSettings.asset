@@ -29,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MundoGrecia.unity
     guid: be904ab27f1f16845b16cff5536c5ca6
+  - enabled: 1
+    path: Assets/Scenes/MundoVolcan.unity
+    guid: c23df3ae4a825fa409402cee17c8bb31
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
