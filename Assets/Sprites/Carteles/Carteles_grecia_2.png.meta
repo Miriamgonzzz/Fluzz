@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Carteles_grecia_2_0: 6341633226523902061
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
