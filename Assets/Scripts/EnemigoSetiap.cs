@@ -21,6 +21,7 @@ public class EnemigoSetiap : MonoBehaviour
     public GameObject[] prefabs; // Array que contiene los prefabs a instanciar
     public int cantidadMaximaInstancias = 5; // Cantidad máxima de instancias
     public GameObject puertaMundoCentral;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -77,6 +78,7 @@ public class EnemigoSetiap : MonoBehaviour
         if (collision.tag == "Bola") {
 
             vida -= 10;
+            audioSource.Play();
             animator.SetInteger("estado",2);
             //transform.localScale = new Vector3(-10, 1, 1);
             if (vida <= 0) {
