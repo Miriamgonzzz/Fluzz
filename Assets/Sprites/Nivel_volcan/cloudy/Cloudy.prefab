@@ -169,6 +169,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  vida: 10
+  animator: {fileID: 0}
+  colorReposo: {r: 0, g: 0, b: 0, a: 0}
+  colorDano: {r: 0, g: 0, b: 0, a: 0}
 --- !u!50 &8576255204414279479
 Rigidbody2D:
   serializedVersion: 4
