@@ -13,6 +13,7 @@ public class MovimientoOniBoss : MonoBehaviour
     private BoxCollider2D colliderPiernaDerecha;
     private BoxCollider2D colliderPiernaIzquierda;
     public Transform respawnPoint;
+    public AudioSource audioSource;
     void Start()
     {
         objetoConTagMazaOni = GameObject.FindGameObjectWithTag("MazaOni");
@@ -68,6 +69,7 @@ public class MovimientoOniBoss : MonoBehaviour
 
         if (other.gameObject.CompareTag("Fluzz"))
         {
+            audioSource.Play();
             other.transform.position = respawnPoint.position;
         }
 

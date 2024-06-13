@@ -101,15 +101,12 @@ public class movimientoKitsune : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, fuerzaSalto);
         audioSource.Play();
         enElAire = true;
-        //iniciadoSalto = false;
-        animacionCaerSueloReproducida = true;
     }
 
     public void ResetToqueAnimation()
     {
         Debug.Log("Toque");
         animator.SetBool("Toque", false);
-        animacionCaerSueloReproducida = false;
 
     }
     public void ActivarCollider()
@@ -125,7 +122,7 @@ public class movimientoKitsune : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Suelo") && animacionCaerSueloReproducida)
+        if (collision.gameObject.CompareTag("Suelo"))
         {
 
             enElAire = false; // El personaje ya no está en el aire
