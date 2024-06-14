@@ -15,6 +15,9 @@ public class LevelController : MonoBehaviour
 
         //agregamos los nombres de los 4 niveles a la lista de niveles
         niveles.Add("MundoAcuaticoOK");
+        niveles.Add("MundoGrecia");
+        niveles.Add("MundoVolcan");
+        niveles.Add("MundoJapon");
     }
 
     public void CompletarNivel(string nombreNivel)
@@ -36,12 +39,28 @@ public class LevelController : MonoBehaviour
 
             //PONER AQUÍ LA CARGA DE LA ESCENA FINAL DEL JUEGO
 
-            SceneManager.LoadScene("MundoAcuaticoOK");
+            victoria();
         }
     }
 
     public bool NivelEstaCompletado(string nombreNivel)
     {
         return nivelesCompletados.Contains(nombreNivel);
+    }
+
+    public void victoria()
+    {
+        Debug.Log("Cargando escena final: JuegoCompletado");
+
+        // Verificar si la escena es válida antes de intentar cargarla
+        if (Application.CanStreamedLevelBeLoaded("JuegoCompletado"))
+        {
+            Debug.Log("La escena es válida. Cargando ahora.");
+            SceneManager.LoadScene("JuegoCompletado");
+        }
+        else
+        {
+            Debug.LogError("La escena 'NombreDeLaEscenaFinal' no se encuentra en los Build Settings o el nombre es incorrecto.");
+        }
     }
 }
