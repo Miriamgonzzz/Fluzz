@@ -2781,6 +2781,7 @@ GameObject:
   - component: {fileID: 419974109}
   - component: {fileID: 419974108}
   - component: {fileID: 419974107}
+  - component: {fileID: 419974111}
   m_Layer: 0
   m_Name: "Puerta mundo acu\xE1tico 2024-03-30 20_15_58_0"
   m_TagString: Untagged
@@ -2795,12 +2796,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419974106}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0b39041e34bfc7469c5c7ff885f27db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mundo: EstacionCentral
+  escenaFinal: JuegoCompletado
 --- !u!61 &419974108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2914,6 +2916,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &419974111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419974106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37991139934b0c945b76d5031f93825a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mundo: EstacionCentral
 --- !u!1 &436133954
 GameObject:
   m_ObjectHideFlags: 0

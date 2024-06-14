@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   niveles: []
+  juegoCompletado: 0
 --- !u!4 &232720398
 Transform:
   m_ObjectHideFlags: 0
@@ -1866,6 +1867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mundo: MundoGrecia
+  escenaFinal: JuegoCompletado
 --- !u!61 &1171065412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2011,6 +2013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mundo: MundoJapon
+  escenaFinal: JuegoCompletado
 --- !u!61 &1211290527
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2601,6 +2604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mundo: MundoAcuaticoOK
+  escenaFinal: JuegoCompletado
 --- !u!1 &1808523116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4044365278302356228, guid: c1fefab0a3a4f5548862c47d8e07060d, type: 3}
@@ -2929,6 +2933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mundo: MundoVolcan
+  escenaFinal: JuegoCompletado
 --- !u!61 &1937809283
 BoxCollider2D:
   m_ObjectHideFlags: 0

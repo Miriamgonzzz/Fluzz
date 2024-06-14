@@ -8094,6 +8094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mundo: EstacionCentral
+  escenaFinal: JuegoCompletado
 --- !u!61 &1754131896
 BoxCollider2D:
   m_ObjectHideFlags: 0
