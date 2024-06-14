@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
@@ -14,9 +15,6 @@ public class LevelController : MonoBehaviour
 
         //agregamos los nombres de los 4 niveles a la lista de niveles
         niveles.Add("MundoAcuaticoOK");
-        niveles.Add("MundoJapon");
-        niveles.Add("MundoGrecia");
-        niveles.Add("MundoVolcan");
     }
 
     public void CompletarNivel(string nombreNivel)
@@ -35,7 +33,10 @@ public class LevelController : MonoBehaviour
         if (nivelesCompletados.Count == niveles.Count)
         {
             Debug.Log("Todos los niveles completados. Fin del juego");
+
             //PONER AQUÍ LA CARGA DE LA ESCENA FINAL DEL JUEGO
+
+            SceneManager.LoadScene("MundoAcuaticoOK");
         }
     }
 
