@@ -19,6 +19,7 @@ public class Bluefire : MonoBehaviour
     public Color colorReposo;
     public Color colorDano;
     SpriteRenderer spriteRenderer;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -87,7 +88,7 @@ public class Bluefire : MonoBehaviour
 
             if (vida <= 0)
             {
-
+                audioSource.Play();
                 colliderEnemigo.enabled = false;
                 animator.SetBool("muerte", true);
 
@@ -104,7 +105,7 @@ public class Bluefire : MonoBehaviour
 
         if (collision.tag == "Bola")
         {
-
+            audioSource.Play();
             vida -= 10;
             transform.localScale = new Vector3(-10, 1, 1);
             if (vida <= 0)

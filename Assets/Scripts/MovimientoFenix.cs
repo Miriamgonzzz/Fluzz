@@ -24,6 +24,7 @@ public class MovimientoFenix : MonoBehaviour
     public barraVida barraVida;
     private Camera mainCamera;
     private float minX, maxX, minY, maxY;
+    public AudioSource audioSource;
 
 
     // Start is called before the first frame update
@@ -127,7 +128,7 @@ public class MovimientoFenix : MonoBehaviour
     private void disparo()
     {
 
-
+        audioSource.Play();
         var bala = Instantiate(disparoTinta, PuntoDeDisparo.position, Quaternion.identity);
         bala.transform.SetParent(null);
         if (!orientacion)

@@ -12,6 +12,7 @@ public class Cloudy : MonoBehaviour
     public Color colorReposo;
     public Color colorDano;
     SpriteRenderer spriteRenderer;
+    public AudioSource audioSource;
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -36,8 +37,8 @@ public class Cloudy : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Player"))
         {
-            
 
+            audioSource.Play();
             vida -= 10;
 
             if (vida <= 0)
@@ -59,7 +60,7 @@ public class Cloudy : MonoBehaviour
 
         if (collision.tag == "Bola")
         {
-
+            audioSource.Play();
             vida -= 10;
             transform.localScale = new Vector3(-10, 1, 1);
             if (vida <= 0)
