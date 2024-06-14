@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class NavegacionEntreEscenas : MonoBehaviour
 {
     public string mundo;
+    public string escenaFinal;
     private bool estaEnLaPuerta = false;
+    private bool irAlFinalDelJuego = false;
     void Start()
     {
 
@@ -31,8 +33,20 @@ public class NavegacionEntreEscenas : MonoBehaviour
 
             }
 
-            SceneManager.LoadScene(mundo);
-            estaEnLaPuerta = false;
+            irAlFinalDelJuego = levelController.ComprobarNivelesCompletados();
+
+            if (irAlFinalDelJuego)
+            {
+                SceneManager.LoadScene(escenaFinal);
+                estaEnLaPuerta = false;
+            }
+            else {
+                SceneManager.LoadScene(mundo);
+                estaEnLaPuerta = false;
+
+            }
+
+            
         }
 
     }

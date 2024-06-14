@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ public class LevelController : MonoBehaviour
 {
     public List<string> niveles; //Lista de los niveles con los nombres de las escenas
     private HashSet<string> nivelesCompletados = new HashSet<string>(); //para ir agregando niveles que se han completado
+    public bool juegoCompletado = false;
 
     void Awake()
     {
@@ -31,16 +33,16 @@ public class LevelController : MonoBehaviour
         ComprobarNivelesCompletados();
     }
 
-    private void ComprobarNivelesCompletados()
+    public bool ComprobarNivelesCompletados()
     {
         if (nivelesCompletados.Count == niveles.Count)
         {
             Debug.Log("Todos los niveles completados. Fin del juego");
-
-            //PONER AQUÍ LA CARGA DE LA ESCENA FINAL DEL JUEGO
-
-            victoria();
+            juegoCompletado = true;
+            return juegoCompletado;
         }
+
+        return juegoCompletado;
     }
 
     public bool NivelEstaCompletado(string nombreNivel)
