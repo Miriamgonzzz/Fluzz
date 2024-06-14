@@ -17,6 +17,20 @@ public class NavegacionEntreEscenas : MonoBehaviour
 
         if (estaEnLaPuerta && Input.GetKeyDown(KeyCode.UpArrow))
         {
+            //busca el objeto llamado LevelController
+            LevelController levelController = FindFirstObjectByType<LevelController>();
+
+            //si la escena en la que te encuentras al activar la puerta coincide con uno de estos 4 nombres...
+            if (SceneManager.GetActiveScene().name == "MundoAcuaticoOK" || 
+                SceneManager.GetActiveScene().name == "MundoJapon" || 
+                SceneManager.GetActiveScene().name == "MundoGrecia" || 
+                SceneManager.GetActiveScene().name == "MundoVolcan")
+            {
+                //...agrega a niveles completados del LevelController ese nombre del nivel
+                levelController.CompletarNivel(SceneManager.GetActiveScene().name);
+
+            }
+
             SceneManager.LoadScene(mundo);
             estaEnLaPuerta = false;
         }
