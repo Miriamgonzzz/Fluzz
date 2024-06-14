@@ -149,6 +149,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1586626592522541510, guid: 6f94746bb5d0d354fa4ee2bcc2d8ae82, type: 3}
   m_PrefabInstance: {fileID: 1817110646}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &232720396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 232720398}
+  - component: {fileID: 232720397}
+  m_Layer: 0
+  m_Name: LevelController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &232720397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232720396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cbf2a8cb8e967c4fb0287121899571b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  niveles: []
+--- !u!4 &232720398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232720396}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.1797662, y: 3.8959208, z: 2.9465697}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &235049542 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1586626592522541510, guid: 6f94746bb5d0d354fa4ee2bcc2d8ae82, type: 3}
@@ -2795,6 +2840,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1937809281}
   - component: {fileID: 1937809280}
+  - component: {fileID: 1937809282}
+  - component: {fileID: 1937809283}
   m_Layer: 0
   m_Name: Puerta mundo fuego 2024-04-21 10_46_42_0
   m_TagString: Untagged
@@ -2869,6 +2916,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1937809282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937809279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b39041e34bfc7469c5c7ff885f27db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mundo: MundoVolcan
+--- !u!61 &1937809283
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937809279}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.36326313, y: -0.9029665}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.52, y: 7.53}
+    newSize: {x: 4.52, y: 7.53}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.8386135, y: 5.267395}
+  m_EdgeRadius: 0
 --- !u!1 &1969235024 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8203317052957245490, guid: c1fefab0a3a4f5548862c47d8e07060d, type: 3}
@@ -3360,6 +3466,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 840727760}
   - {fileID: 334123864}
+  - {fileID: 232720398}
   - {fileID: 3456311422759137932}
   - {fileID: 1802121055}
   - {fileID: 1211290525}
