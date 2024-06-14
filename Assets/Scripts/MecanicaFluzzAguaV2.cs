@@ -22,6 +22,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
     SpriteRenderer spriteRenderer;
     public AudioSource audioSource;
     public AudioSource sonidoCuracion;
+    public AudioSource sonidoDanio;
 
     public barraVida barraVida;
 
@@ -139,6 +140,7 @@ public class MecanicaFluzzAguaV2 : MonoBehaviour
 
        
     if (collision.gameObject.CompareTag("Enemigo")){
+            sonidoDanio.Play();
             vida -= 10;
             barraVida.CambiarVidaActual(vida);
 

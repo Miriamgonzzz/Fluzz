@@ -53,10 +53,10 @@ public class bossMarine : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Le he dado al submarino");
+        
         if (collision.tag == "Bola")
         {
-            Debug.Log("chupate esa");
+            audioSource.Play();
 
             vida -= 10;
             animator.SetBool("danioBossMarine", true);
