@@ -30,6 +30,7 @@ public class NavegacionEntreEscenas : MonoBehaviour
             {
                 //...agrega a niveles completados del LevelController ese nombre del nivel
                 levelController.CompletarNivel(SceneManager.GetActiveScene().name);
+                levelController.DesactivarEstrellas();
 
             }
 

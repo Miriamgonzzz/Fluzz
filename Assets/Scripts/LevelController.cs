@@ -6,16 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
-    public List<string> niveles; //Lista de los niveles con los nombres de las escenas
-    private HashSet<string> nivelesCompletados = new HashSet<string>(); //para ir agregando niveles que se han completado
+    public List<string> niveles; // Lista de los niveles con los nombres de las escenas
+    private HashSet<string> nivelesCompletados = new HashSet<string>(); // para ir agregando niveles que se han completado
     public bool juegoCompletado = false;
+    public GameObject estrellaAgua;
+    public GameObject estrellaVolcan;
+    public GameObject estrellaJapon;
+    public GameObject estrellaGrecia;
+
 
     void Awake()
     {
-        //Asegurarse de que este objeto, el controlador de escenas, no se destruya al cargar un nivel
+        // Asegurarse de que este objeto, el controlador de escenas, no se destruya al cargar un nivel
         DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(estrellaAgua);
+        DontDestroyOnLoad(estrellaVolcan);
+        DontDestroyOnLoad(estrellaJapon);
+        DontDestroyOnLoad(estrellaGrecia);
 
-        //agregamos los nombres de los 4 niveles a la lista de niveles
+        // Agregamos los nombres de los 4 niveles a la lista de niveles
         niveles.Add("MundoAcuaticoOK");
         niveles.Add("MundoGrecia");
         niveles.Add("MundoVolcan");
@@ -42,6 +51,9 @@ public class LevelController : MonoBehaviour
             return juegoCompletado;
         }
 
+        // Actualiza las estrellas cada vez que se completa un nivel
+        ActualizarEstrellas();
+
         return juegoCompletado;
     }
 
@@ -64,5 +76,45 @@ public class LevelController : MonoBehaviour
         {
             Debug.LogError("La escena 'NombreDeLaEscenaFinal' no se encuentra en los Build Settings o el nombre es incorrecto.");
         }
+    }
+
+    void ActualizarEstrellas()
+    {
+        foreach (var nivel in niveles)
+        {
+
+            if (nivelesCompletados.Contains(nivel))
+            {
+                Debug.Log("Encontré el nivel " + nivel);
+
+               if(nivel == "MundoAcuaticoOK")
+                {
+                    estrellaAgua.SetActive(true);
+                }
+
+                if (nivel == "MundoVolcan")
+                {
+                    estrellaVolcan.SetActive(true);
+                }
+
+                if (nivel == "MundoGrecia")
+                {
+                    estrellaGrecia.SetActive(true);
+                }
+
+                if (nivel == "MundoJapon")
+                {
+                    estrellaJapon.SetActive(true);
+                }
+            }
+        }
+    }
+
+    public void DesactivarEstrellas()
+    {
+        estrellaAgua.SetActive(false);
+        estrellaVolcan.SetActive(false);
+        estrellaJapon.SetActive(false);
+        estrellaGrecia.SetActive(false);
     }
 }
